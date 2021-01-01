@@ -1,3 +1,4 @@
 # readme
-hey if you are reading this then you and i am already connected dude.
-this is my repo for 2021 a.d starting from 2021/01/02.
+Hey dude if you are reading this then you and I am already connected dude.
+This is my repo for 2021A.D. starting from 2021/01/02.
+
