@@ -4,41 +4,44 @@
     font-weight: lighter;
     font-size: 35px;
     text-align:center;
-    margin: 0px;
+    margin:10px 10px;
+    padding: 15px 15px;
 
 }
 .navigation ul.logo{
-    color: blueviolet;
+    color: blue;
     font-size: 35px;
     font-weight: 700;
-margin: 0px;
+margin:5px 5px;
+padding: 20px 20px;
+text-align: center;
+  }
+  .navigation ul.logos{
+      margin-bottom: 1px;
+      padding-bottom: 1px;
   }
 #banner{
-    background-image: url("pexels-george-keating-948331.jpg");
-   background-position: cover;
-   background-position: bottom center;
-   height: 850px;
-   width: 120%;
-   background-repeat: repeat-y;
+    background-image: url("pexels-photo-1034662.jpeg");
+   background-position: top center;
+   background-size: contain;
+   height:550px;
+   widows: 100%;;
+   background-repeat: no-repeat;
+   margin: 10px 10px;
+   padding: 15px 15px;
+   padding-left: 500px;
+   border: 1px solid white;
    background-attachment: fixed;
-   margin: 0px;
-   padding: 0px;
 }
-#banner.article{ 
-    position: relative;
-    top: 100px;
-    width: 400px;
-    margin: 0 auto;
+.notice{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+border: 5px solid red;
+height: 150px;
+width: 100%;
+position: static;
+text-align: center;
+padding left: 20px;
+padding-right: 20px;
+color: green;
 }
-article {
-    color: red;
-    font-size: 42px;
-    font-weight: 700;
-    border: 3px solid black;
-    position: relative;;
-    top: 10px;
-    width: 400px;
-    margin: 0 auto;
-    padding: 0 auto;
-    height:350px;
-  }
