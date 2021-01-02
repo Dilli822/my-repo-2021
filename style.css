@@ -6,7 +6,6 @@
     text-align:center;
     margin:10px 10px;
     padding: 15px 15px;
-
 }
 .navigation ul.logo{
     color: blue;
@@ -41,7 +40,7 @@ height: 150px;
 width: 100%;
 position: static;
 text-align: center;
-padding left: 20px;
+padding-left: 20px;
 padding-right: 20px;
 color: green;
 }
