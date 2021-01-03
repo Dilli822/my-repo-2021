@@ -2,7 +2,7 @@ header{
     color:rebeccapurple;
     font-size: 110px;
     text-align: center;
-    background-color:;
+    background-color:white;
     padding:auto;
     margin: auto;
     border: 2px solid black;
@@ -43,4 +43,16 @@ h7{
 h8{
  color:rgba(34, 100%, 50%, 0%);
     font-size:xx-large;
+}
+span{
+   color: rgb(4, 0, 255);
+   font-size: xx-large;
+text-align: top right;
+text-family: georgia;
+}
+#magic{
+    border: 2px solid red;
+    height:250px;
+    width: 550px;
+    position: top;
 }
