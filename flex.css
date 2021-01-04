@@ -1,3 +1,6 @@
+body{
+    background-color: rgba(188, 255, 80, 0.288);
+}
 .left{
     color:red;
     font-family: cursive;
@@ -39,6 +42,7 @@ article{
     text-align: center;
     font-size: 35px;
     font-weight: bolder;
+    background-color: blueviolet;
 }
 
 .fig1{
@@ -46,54 +50,73 @@ article{
     background-color:rgb(255, 0, 0);
  justify-content: left;
  margin:auto;
- background-image: url("fg2.jpg");
+ background-image: url("a.jpg");
  padding:auto;
- height: 570px;
- width:340px;
+ height: 770px;
+ width:440px;
  font-size:85px;}
  P{
      text-align: bottom;
-     margin-top: 580px;
+     margin-top: 770px;
      display: inline-block;
-     height: 80px;
-     width: unset;
-     background-color: rgb(255, 4, 4);
-     border: 2px solid red;
+     height: 70px;
+     width: 280px;
+     background-color: rgb(138, 255, 4);
+     border:3px solid black; 
+     font-size: 43px;
+     justify-content: left;
+    
  }
  
  .fig2{
     display:inline-flex;
     background-color:rgb(255, 0, 0);
  justify-content: left;
- margin-left:135px;
- background-image: url("fg2.jpg");
+ margin-left: 10px;
+ background-image: url("u.jpg");
  padding:auto;
- height: 470px;
- width:280px;
+ height:547px;
+ width:466px;
  font-size:85px; 
  flex-direction: column;
 }
 aside{
     display: inline-flex;
-    background-color: red;
-    justify-content: center;
-    margin-left: 200px;
+    background-color: rgb(0, 255, 179);
+    justify-content: bottom;
+    margin-left: 90px;
+    margin-top:620px;
+    border:3px solid black; 
+    font-size: 55px;
+    width: 280px;
+    height:90px;
+    
 }
 
     .fig3{
         display:inline-flex;
         background-color:rgb(255, 0, 0);
      justify-content: right;
-     margin-left:400px;
-     margin-top:0px;
-     margin-bottom: 0px;
+     margin-left:0px;
+     margin-top:auto;
+     margin-bottom:auto;
      margin-right:auto;
-     background-image: url("fg2.jpg");
+     background-image: url("fig3.jpg");
      padding:auto;
-     height: 970px;
-     width:340px;
-     font-size:85px; 
-     flex-direction: column;
+     height: 630px;
+     width:385px;
+     font-size:85px;
+     
     }
-
+span{
+ display:inline-flex;
+background-color: rgb(32, 238, 245);
+justify-content: bottom;
+margin-left: 5px;
+margin-top:770px;
+border: 3px solid rgb(5, 5, 5);
+height:70px;
+width:285px;
+font-size:60px;
+}
   
