@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
     background-color: DodgerBlue;
-    justify-content: center;
+    justifygit-content: center;
     height:600px;
     flex-wrap: wrap;
     align-items: center;
