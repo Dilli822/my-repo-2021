@@ -48,7 +48,7 @@ span{
    color: rgb(4, 0, 255);
    font-size: xx-large;
 text-align: top right;
-text-family: georgia;
+font-family: georgia;
 }
 #magic{
     border: 2px solid red;
