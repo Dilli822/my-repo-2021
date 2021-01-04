@@ -1,10 +1,39 @@
-<  <div>4</div>
-<div>5</div>
-    div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>  
-            <div>10</div>
-            <div>11</div>
-            <div>12</div>  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responisve flex</title>
+</head>
+<body>
+        <link href="test.css" type="text/css"rel="stylesheet">
+        <h1>Responisve Flexbox</h1>
+
+        <p>The "flex-direction: row;" stacks the flex items horizontally (from left to right).</p>
+        <p>The "flex-direction: column;" stacks the flex items vertically (from top to bottom).</p>
+        <p><b>Resize the browser window to see that the direction changes when the 
+        screen size is 800px wide or smaller.</b></p> 
+        <div class="flex-container">
+            <div class="flex-item-left">1</div>
+            <div class="flex-item-right">2</div>    
+ 
+    <div class="flex-container">
+        <div style="flex-grow: 1">1</div>
+        <div style="order: 2">3</div> 
+        <div style="flex-basis: 200px">2</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>  
+        <div>10</div>
+        <div>11</div>
+        <div style="flex-shrink: 0">12</div>
         </div>
+      
+        
+    
+</body>
+</html>
+    
