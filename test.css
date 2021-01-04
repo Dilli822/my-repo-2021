@@ -45,6 +45,66 @@
   
   }
    
-  
+ <--!>
+ .fig4{
+  display:inline-flex;
+  background-color:rgb(255, 0, 0);
+justify-content: bottom;
+margin-left:0px;
+margin-right:auto;
+margin-top:350px;
+margin-bottom: 0px;
+background-image: url("fg2.jpg");
+padding:auto;
+height: 370px;
+width:340px;
+font-size:85px; 
+flex-direction: column;
+}
+.fig5{
+  display:inline-flex;
+  background-color:rgb(255, 0, 0);
+justify-content: bottom;
+margin-left:0px;
+margin-right: auto;
+margin-top:350px;
+margin-bottom: 0px;
+background-image: url("fg2.jpg");
+padding:auto;
+height: 370px;
+width:340px;
+font-size:85px; 
+flex-direction: column;
+}
+.fig6{
+  display:inline-flex;
+  background-color:rgb(255, 0, 0);
+justify-content: bottom;
+margin-left:0px;
+margin-right: auto;
+margin-top:320px;
+margin-bottom: 0px;
+background-image: url("fg2.jpg");
+padding:auto;
+height: 370px;
+width:340px;
+font-size:85px; 
+flex-direction: column;
+}
+
+.fig6{
+  display:inline-flex;
+  background-color:rgb(255, 0, 0);
+justify-content: right;
+margin-left:0px;
+margin-right:auto;
+
+background-image: url("fg2.jpg");
+padding:auto;
+height: 370px;
+width:340px;
+font-size:85px; 
+flex-direction: row;
+} 
   
   
