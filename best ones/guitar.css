@@ -1,0 +1,121 @@
+body{
+    background-color: rgba(188, 255, 80, 0.288);
+}
+.left{
+    color:red;
+    font-family: cursive;
+}
+.right.ul{
+    font-family: cursive;
+    text-align: right;
+    padding: auto;
+    margin:auto;
+}
+header{
+    color:rgb(101, 224, 0);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:55px;
+    text-align: center;
+    font-weight: lighter;
+}
+#banner{
+text-align: center;
+height:115px;
+width: 100%;
+background-color:rgb(0, 255, 157);)
+}
+.line{
+font-family:Arial, Helvetica, sans-serif;
+font-size:45px;
+font-weight: bolder;
+color:rgba(255, 247, 247, 0.993);
+}
+article{
+    font-family: sans-serif;
+    font-size:xx-large;
+    font-size:45px;
+    color:rgba(35, 35, 240, 0.705);
+}
+.h1{
+    margin-top:52px;
+    margin-bottom:56px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: blueviolet;
+}
+.fig1{
+    display:inline-flex;
+    background-color:rgb(255, 0, 0);
+ justify-content: left;
+ margin:auto;
+ background-image: url("a.jpg");
+ padding:auto;
+ height: 770px;
+ width:440px;
+ font-size:85px;}
+ P{
+     text-align: bottom;
+     margin-top: 770px;
+     display: inline-block;
+     height: 70px;
+     width: 280px;
+     background-color: rgb(138, 255, 4);
+     border:3px solid black; 
+     font-size: 43px;
+     justify-content: left;
+    
+ }
+ 
+ .fig2{
+    display:inline-flex;
+    background-color:rgb(255, 0, 0);
+ justify-content: left;
+ margin-left: 10px;
+ background-image: url("u.jpg");
+ padding:auto;
+ height:547px;
+ width:466px;
+ font-size:85px; 
+ flex-direction: column;
+}
+aside{
+    display: inline-flex;
+    background-color: rgb(0, 255, 179);
+    justify-content: bottom;
+    margin-left: 90px;
+    margin-top:620px;
+    border:3px solid black; 
+    font-size: 55px;
+    width: 280px;
+    height:90px;
+    
+}
+
+    .fig3{
+        display:inline-flex;
+        background-color:rgb(255, 0, 0);
+     justify-content: right;
+     margin-left:0px;
+     margin-top:auto;
+     margin-bottom:auto;
+     margin-right:auto;
+     background-image: url("fig3.jpg");
+     padding:auto;
+     height: 630px;
+     width:385px;
+     font-size:85px;
+     
+    }
+span{
+ display:inline-flex;
+background-color: rgb(32, 238, 245);
+justify-content: bottom;
+margin-left: 5px;
+margin-top:770px;
+border: 3px solid rgb(5, 5, 5);
+height:70px;
+width:285px;
+font-size:60px;
+}
+  
