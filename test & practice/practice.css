@@ -1,27 +1,20 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-direction: row;
+
+  .header{
+    background-color: rgba(5, 213, 250, 0.993);
+    border:5px solid red;
+    padding: 20px;
     font-size: 30px;
     text-align: center;
   }
-  
-  .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-    background-color: dodgerblue;
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
+  .menu{
+    background-color:rgb(30, 235, 30);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.C{
+    background-color:rgb(255, 12, 255);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
