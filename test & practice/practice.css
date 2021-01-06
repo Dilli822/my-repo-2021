@@ -1,20 +1,18 @@
-
-  .header{
-    background-color: rgba(5, 213, 250, 0.993);
-    border:5px solid red;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 85px 95px auto;
+    background-color: #2196F3;
+    padding: 10px;
+    grid-gap: 80px 20px;
+    height: 650px;
+align-content: space-between;
+  }
+  
+  .A{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
   }
-  .menu{
-    background-color:rgb(30, 235, 30);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-.C{
-    background-color:rgb(255, 12, 255);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
