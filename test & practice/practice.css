@@ -23,3 +23,15 @@ h1{
     width: 450px;
     margin-left: 780px;
 }
+li{
+    text-align:center;
+    font-family:Helvetica;
+    color:rgb(7, 252, 27);
+    font-size:45px;
+}
+p{
+    text-align:center;
+    font-family:Helvetica;
+    color:rgb(255, 210, 7);
+    font-size:42px;  
+}
