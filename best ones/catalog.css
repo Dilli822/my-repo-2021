@@ -14,25 +14,22 @@ padding:auto;
     display:flex;
    border: 2px #acc solid;
    display: flex;
-   border: px rgb(0, 5, 5) solid;
+   border: 2px rgb(5, 5, 5) solid;
+   margin-bottom:95px;
 }
 
 .flex-items1{
-    height: 515px;
+    background-color: rgba(195, 0, 255, 0.39);
+    height: 315px;
     width: 630px;
     font-size: 85px;
     text-align: center;
     display: flex;
 
 }
-img{
-    margin-left: 115px;
-}
-section{
-    margin-top:255px;
-}
+
 .flex-items2{
-    background-color: rgb(26, 235, 8);
+    background-color: rgba(255, 2, 2, 0.644);
     height: 315px;
     width: 630px;
     font-size: 85px;
@@ -43,6 +40,7 @@ section{
 .flex-container2{
     display:flex;
    border: 2px rgb(0, 5, 5) solid;
+   margin-bottom:95px;
 }
 
 .flex-items3{
@@ -64,11 +62,12 @@ section{
 .flex-container3{
     display:flex;
     border: 2px rgb(0, 5, 5) solid;
+    margin-bottom:95px;
   
 }
 .flex-items5{
     display:flex;
-    background-color: rgb(243, 14, 83);
+    background-color: rgb(62, 50, 241);
     height:315px;
     width:630px;
     font-size:85px;
@@ -79,8 +78,7 @@ section{
         height:315px;
         width:630px;
         font-size:85px;}
-
-
+}
 
 
 
