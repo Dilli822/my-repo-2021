@@ -15,7 +15,7 @@ body {
     padding-top: 100px;
     width: 100%;
     font-family: Georgia;
-    text-align: center;
+    text-align: left;
   }
   
   h2 {
@@ -38,7 +38,7 @@ body {
     font-family: Helvetica;
     font-size: 18px;
     font-weight: bold;
-    width:100%;
+    width:1920px;
   }
   
   .byline {
@@ -84,4 +84,8 @@ body {
     float: left;
     width: 50px;
   }
-  
+  span{
+    color:red;
+    transition-duration: 10s;
+    transition-delay:200ms;
+  }
