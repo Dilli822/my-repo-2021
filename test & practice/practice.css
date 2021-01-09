@@ -1,13 +1,18 @@
-.felx-container{
-    display: inline flex;
-    height: 200px;
-    width: 200px;
-
-  
+@media only screen and (max-width: 600px){
+    body{
+        background-color: rgb(130, 0, 0);
+    }
+}
+@media only screen and (max-width: 600px){
+img{
+    background-color: rgb(130, 0, 0);
+    }
 
 }
-.flex-items{
-    display: inline flex;
-    font-size:56px;
-    background-color:green;
+
+h1{
+    color:white;
+}
+body{
+    background-color: hotpink;
 }
