@@ -1,5 +1,13 @@
+.felx-container{
+    display: inline flex;
+    height: 200px;
+    width: 200px;
 
-#form{
-    color:blue;
-    background-color: aqua;
+  
+
+}
+.flex-items{
+    display: inline flex;
+    font-size:56px;
+    background-color:green;
 }
