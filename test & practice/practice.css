@@ -12,7 +12,13 @@ img{
 
 h1{
     color:white;
+    font-size: 45px;
+
 }
 body{
     background-color: hotpink;
+}
+p{
+    font-size: 25px;
+    font-family:monospace;
 }
