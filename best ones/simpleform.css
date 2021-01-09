@@ -1,0 +1,19 @@
+@media only screen and (min-width:400px){
+body {
+    background-image:url(boudha.jpg);
+    background-repeat: no-repeat;}}
+  
+.username{
+    font-size:45px;
+    color:red;
+    padding-left: 445px;
+ padding-top: 700px;
+ 
+} 
+
+.password{
+    font-size:45px;
+    color:rgb(243, 18, 18);
+    padding-left: 455px;
+    padding-bottom: 0px;
+}
