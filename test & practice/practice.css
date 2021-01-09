@@ -1,10 +1,5 @@
-.checkbox{
-    font-style:cursive;
-    font-size: 50px;
-    color:rgb(4, 0, 255);
-    background-color: rgba(255, 1, 1, 0.356);
-}
-.input{
-    font-style:cursive;
-    font-size: 50px;
+
+#form{
+    color:blue;
+    background-color: aqua;
 }
