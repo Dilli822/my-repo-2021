@@ -1,4 +1,4 @@
-@media only screen and (min-width:400px){
+@media only screen and (min-width:0px){
 body {
     background-image:url(boudha.jpg);
     background-repeat: no-repeat;}}
@@ -17,3 +17,8 @@ body {
     padding-left: 455px;
     padding-bottom: 0px;
 }
+.submit{
+    padding-left: 255px;
+    padding-bottom: 0px;
+  padding-right:0px;
+}   
