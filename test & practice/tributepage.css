@@ -1,35 +1,55 @@
 #title{
     text-align: center;
-    font-size:55px;
-    background-color:rgba(248, 167, 17, 0.863);
-    display:flex;
-    padding-left: 290px;
+    font-size: 6rem;
+    background-color:rgba(248, 167, 17, 0.719);
     color:rgb(253, 253, 253);
-   
+    line-height: 105%;
+    font-family:Big Shoulders Stencil Text;   
 }
-img{
-    padding-left:180px;
-   padding-top: 25px;
-   flex: 50%;
-
+@media (max-width: 460px){
+    #title {
+        font-size:2.5rem;
+    }
 }
+img {
+    max-width: 100%;
+    display: flex;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 45px;
+  }
+  
+ 
+  
+  @media (max-width: 460px) {
+    #img-caption {
+        height: auto;
+    }
+  }
+  
 #tribute-info{
-    font-size: 38px;
+    font-size: 25px;
     padding-bottom:5px;
    color:rgb(104, 156, 0);
    word-wrap: normal;
    word-spacing: 0.1em;
+   padding-top: 45px;
+   padding-left: 35px;
+   padding-right: 35px;
+   font-family: cursive;
+}
 
-}
-@media (max-width: 400px;){
-    img{
-        flex: 100%;
-    }
-}
+ 
 #tribute-link{
-    padding-left: 90px;
-    font-size: 35px;
+  
+    font-size: 2rem;
     color:rgb(0, 204, 255);
     font-weight:bolder;
-    padding-left:175px;
+    text-align:center;
+
+}
+@media (max-width: 420px){
+    #tribute-link{
+        font-size: 2rem;
+    }
 }
