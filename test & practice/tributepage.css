@@ -1,0 +1,35 @@
+#title{
+    text-align: center;
+    font-size:55px;
+    background-color:rgba(248, 167, 17, 0.863);
+    display:flex;
+    padding-left: 290px;
+    color:rgb(253, 253, 253);
+   
+}
+img{
+    padding-left:180px;
+   padding-top: 25px;
+   flex: 50%;
+
+}
+#tribute-info{
+    font-size: 38px;
+    padding-bottom:5px;
+   color:rgb(104, 156, 0);
+   word-wrap: normal;
+   word-spacing: 0.1em;
+
+}
+@media (max-width: 400px;){
+    img{
+        flex: 100%;
+    }
+}
+#tribute-link{
+    padding-left: 90px;
+    font-size: 35px;
+    color:rgb(0, 204, 255);
+    font-weight:bolder;
+    padding-left:175px;
+}
