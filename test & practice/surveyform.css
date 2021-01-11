@@ -1,6 +1,6 @@
 body{
    background-image: url("https://content.fbir2-1.fna.fbcdn.net/v/t1.0-9/125762920_3023536597873954_5023565475812970788_o.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=B0iv_l0HQgUAX_SCfIZ&_nc_ht=scontent.fbir2-1.fna&oh=7065faaf95f60f2cf5f6aea77d09f45b&oe=6021BBA4"); 
-color: rgb(255, 7, 7);
+clor: rgb(7, 255, 48);
 }
 @media (max-width: 400px){
     body{
@@ -36,4 +36,8 @@ background-color: rgba(219, 250, 240, 0.205);
 }
 .input{
     width: 5px;
+}
+main{
+    color: rgb(0, 255, 0);
+    font-size: 25px;
 }
