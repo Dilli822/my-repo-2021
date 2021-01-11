@@ -44,3 +44,26 @@ align-content: center;
 grid-area: 1/ 2/ 3 / 3;
  
 }
+/*-----*/
+h1{
+  font-size:45px;
+  color:white;
+  text-align: center;
+  display:flex;
+}
+article{
+  font-size:45px;
+  color:white;
+  display:flex;
+}
+p{
+  display:grid;
+  background-color: rgba(0, 255, 255, 0.349);
+  border: 0px solid black;
+  height:1050px;
+  width: 636px;
+  margin-left: 285px;
+  margin-top: 125px;
+  border-radius: 2%;
+
+}
