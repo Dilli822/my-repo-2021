@@ -1,18 +1,39 @@
 body{
-   background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.0-9/125762920_3023536597873954_5023565475812970788_o.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=B0iv_l0HQgUAX_SCfIZ&_nc_ht=scontent.fbir2-1.fna&oh=7065faaf95f60f2cf5f6aea77d09f45b&oe=6021BBA4"); 
-color: white;
+   background-image: url("https://content.fbir2-1.fna.fbcdn.net/v/t1.0-9/125762920_3023536597873954_5023565475812970788_o.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=B0iv_l0HQgUAX_SCfIZ&_nc_ht=scontent.fbir2-1.fna&oh=7065faaf95f60f2cf5f6aea77d09f45b&oe=6021BBA4"); 
+color: rgb(255, 7, 7);
 }
 @media (max-width: 400px){
     body{
-    color: white;
+    color: rgb(248, 9, 9);
     }
 }
+
+
 h1{
+   padding: 25px;
 text-align: center;
+background-color: rgba(219, 250, 240, 0.205);
 }
-.grid-container{
+
+
+@media (max-width: 400px){
+    .grid-container,{
+    height: 100%;
+    }
+}
+.grd-container{
     display: grid;
     border: 2px solid black;
-    margin-top: 165px;
-    margin-left: 56px;
+    margin-top: 195px;
+    margin-left: 156px;
+    margin-right: 136px;
+    height: 952px;
+    max-width: 100%;
+}
+#nme{
+    text-align: left;
+    font-size: 35px;
+}
+.input{
+    width: 5px;
 }
