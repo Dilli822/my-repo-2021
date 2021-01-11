@@ -10,60 +10,94 @@
     <div id="title">
         <h1>
 Bee Music Arts & Electronics <br>
-<article>Please Fill the Survey Form to Improve Our Platform</article>
+<article>Please Fill the Survey Form to Improve Our PlatForm</article>
         </h1></div>
     <main>
+        <div class="grid-container">
     <div id="description">
-    <form>
-       
-    </div>
+    <form> 
         <div id="survey-form">
-            <div id="name">
-                <label for="name">Name</label>
-             <input id="name" type="text" required placeholder="please Enter your name">
-            </div>
-                <div id="email">
-                    <label for="email">Email</label>
-                    <input id="email" type="text" required placeholder="please Enter your email">
-                </div>
-                    <div id="number">
-                        <label for="number">Age(optional)</label>
-                    <input id="numbers" type="number" min="1" max="120" step="1"required placeholder="age"><br>
+     <div id="name">
+    <label for="name">Name</label><br>
+     <input id="name" type="text" required placeholder="Please Enter your name">
+     </div>
+     <div id="email">
+     <label for="email">Email</label><br>
+    <input id="email" type="text" required placeholder="Please Enter your email">
+     </div>
+      <div id="number">
+      <label for="number">Age(optional)</label><br>
+    <input id="numbers" type="number" min="1" max="120" step="1"required placeholder="age"><br>
     </div>
 </div>
-<p>Which is your favourite instrunments?
-    <label for="question"></label>
+
+
+<p>
+
+<div id="question">
+    <label for="question">Which is your <span></span>favourite instrunments?</label>
     <br>
+    <select id="question" name="question">
+        <option value="acoustic-guitar">Acoustic-guitar</option>
+        <option value="drum-sets">drum-sets</option>
+        <option value="piano">piano</option>
+        <option value="Mics & Harmony">Mics & Harmony</option>
+        <option value="Electric-guitar">Electric-guitar</option>
+        <option value="Ukuele">Ukuele</option>
+        <option value="others">others</option>
+    </select>
+</div>
+
+<br>
+    <br>
+    <div id="radio">
     Would you recommend Bee Music store to a friend?<br>
-  
     <input id="Definetly" type="radio" name="Definetly">
     <Label for="Definetly">Definetly</Label>
+    <input id="Maybe" type="radio" name="Maybe">
+    <label for="Maybe">Maybe</label>
+    <input id="Not Sure" type="radio" name="Not Sure">
+    <label for="Not Sure">Not Sure</label>
     <br>
-what is that you like most in our store?
+
+</div>
+<div id="quest">
 <br>
-what would you like to see improved?(Tick as you feel)<br>
+What you like most of us?<br>
+<select id="quest" name="quest">
+<option value="Customer-Service">Customer-Service</option>
+<option value="products">Products</option>
+<option value="Fairness">Fairness</option>
+<option value="Transparency">Transparency</option>
+</select>
+<br>
+<br>
+</div>
+<div id="enquiry">
+What would you like to see improved?(Tick as you feel)<br>
 <input id="lighting" type="checkbox" name="lighting">
 <label for="lighting">lighting</label>
-<br>
 <input id="more guitar" type="checkbox" name="more guitar">
-
 <label for="more guitars">guitars</label>
-<br>
 <input id="servicing" type="checkbox" name="servicing">
 <label for="servicing">servicing</label>
-<br>
 <input id="delivery" type="checkbox" name="delivery">delivery
 <br>
-More advice & suggestions ?<br>
 <br>
-<label for="blog"></label>
-    <textarea id="blog" name="blog" rows="5" cols="30" minlength="50" maxlength="250" placeholder="Enter your comments"required >
-    </textarea><br>
+</div>
+<div id="button">
+More advice & suggestions ?
+<br>
+<label for="blog"></label>  
+<textarea id="blog" name="blog" rows="5" cols="30" minlength="50" maxlength="250" placeholder="Enter your comments"required >
+    </textarea>
+    <br>
 <button type="submit">comment</button>
-
 </button>
+</div>
+</div>
 </p>
-    </form>
+</form>
 </main>
 </body>
 </html>
