@@ -6,8 +6,13 @@ img{
     height: auto;
 max-width: 100%;
 }
-@Media(max-width: 200px){
+@Media(max-width: 400px){
     .img{
       max-width: 100%;
+    }
+}
+@media(max-width:400px){
+    .video{
+        max-width: 100%;
     }
 }
