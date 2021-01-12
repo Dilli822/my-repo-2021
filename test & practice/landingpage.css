@@ -1,0 +1,13 @@
+
+img{
+    display: flex;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+max-width: 100%;
+}
+@Media(max-width: 200px){
+    .img{
+      max-width: 100%;
+    }
+}
