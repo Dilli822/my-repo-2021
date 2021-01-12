@@ -1,4 +1,6 @@
-
+body{
+    background-color: bisque;
+}
 img{
     display: flex;
     max-width: 100%;
@@ -11,8 +13,62 @@ max-width: 100%;
       max-width: 100%;
     }
 }
-@media(max-width:400px){
+nav{
+    font-size: 25px;
+display: flex;
+}
+
+.list{
+    display:flex;
+
+}
+
+l1{
+    color:red;
+    font-size: 1.5em;
+}
+l2{
+   color: rgb(0, 195, 255); 
+   font-size: 1.5em;
+}
+
+l3{
+    color: rgb(4, 0, 255); 
+    font-size: 1.5em;
+}
+@media (max-width: 400px){
+    l1, l2, l3{
+        font-size: 1.5em;
+    }
+}
+header{
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    color:solid black;
+    font-weight: bolder;
+
+}
+#email{
+height: 25px;
+margin-left: 35px;
+width: 305px;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+}
+#video{
+    text-align: center;
+}
+
+ }
+@media (max-width: 400px){
     .video{
-        max-width: 100%;
+    width: 100%;
     }
 }
