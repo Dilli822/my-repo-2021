@@ -1,0 +1,25 @@
+h1{
+    text-align: left;
+    padding: 35px;
+}
+p{
+margin-left: 65px;
+}
+ul{
+    margin-left: 95px;
+}
+span{
+    font-size: 25px;
+    margin-left: 35px;
+    font-weight: bold;
+}
+article{
+    margin-left: 75px;
+}
+line{
+    margin-left: 65px;
+}
+aside{
+    margin-left: 65px;
+    padding: 0;
+}
