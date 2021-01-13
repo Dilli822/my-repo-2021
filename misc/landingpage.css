@@ -4,6 +4,7 @@ margin-left: 425px;
 position:fixed;
 margin-bottom: 0px;
 background-color: rgba(17, 243, 243, 0.356);
+color:white;
 }
 @media only screen and (max-width: 800px){
     h0{
@@ -25,7 +26,7 @@ margin-left: 25px;
 font-size: 1.2em;
 font-family: Open Sans;
 font-weight: bolder;
-color: rgb(85, 77, 2);
+color: rgb(0, 0, 0);
 
 }
 ul{
@@ -33,12 +34,12 @@ ul{
     font-size: 20px ;
     font-family: Titillium Web;
     font-weight: bold;
-    color:rgb(95, 95, 99);
+    color:rgb(77, 77, 153);
 }
 span{
     font-size: 25px;
     margin-left: 35px;
-    color: rgb(85, 77, 2);
+    color: rgb(194, 4, 4);
     font-family: Titillium Web;
 }
 article{
@@ -46,7 +47,8 @@ article{
     font-size: 20px ;
     font-family: Titillium Web;
     font-weight: bold;
-    color: rgb(85, 77, 2);
+    color: rgb(0, 0, 0);
+
 }
 line{
     margin-left: 65px;
@@ -55,11 +57,23 @@ aside{
     margin-left: 65px;
     padding: 0;
     font-size: 20px;
-    color: rgb(85, 77, 2);
+    color: rgb(0, 0, 0);
+
 }
 line{
     font-size: 25px;
     font-family: Titillium Web;
     font-weight: 600;
-    color: rgb(85, 77, 2);
+    color: rgb(0, 0, 0);
+
+}
+h2{
+    color:rgb(255, 38, 0);
+}
+#link{
+    font-size: 35px;
+    text-align:center;
+    border: 2px solid;
+background-color: rgb(245, 250, 245);
+transition-duration: 5s;
 }
