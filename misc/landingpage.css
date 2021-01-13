@@ -3,7 +3,7 @@ h0{
 margin-left: 425px;
 position:fixed;
 margin-bottom: 0px;
-background-color: aqua;
+background-color: rgba(17, 243, 243, 0.356);
 }
 @media only screen and (max-width: 800px){
     h0{
@@ -11,34 +11,42 @@ background-color: aqua;
     }
 }
 body{
-    background-color: lemonchiffon;
+    background-color: rgb(255, 253, 253);
 }
 h1{
     text-align: left;
-    padding: 65px;
+    padding: 55px;
     position: relative;
-    color:lightgreen;
+    color:rgb(8, 250, 8);
     font-family: cursive;
 }
 p{
-margin-left: 65px;
+margin-left: 25px;
 font-size: 1.2em;
 font-family: Open Sans;
 font-weight: bolder;
+color: rgb(85, 77, 2);
+
 }
 ul{
     margin-left: 95px;
-    font-size: 35px ;
+    font-size: 20px ;
     font-family: Titillium Web;
     font-weight: bold;
+    color:rgb(95, 95, 99);
 }
 span{
-    font-size: 5px;
+    font-size: 25px;
     margin-left: 35px;
-    font-weight: bold;
+    color: rgb(85, 77, 2);
+    font-family: Titillium Web;
 }
 article{
     margin-left: 75px;
+    font-size: 20px ;
+    font-family: Titillium Web;
+    font-weight: bold;
+    color: rgb(85, 77, 2);
 }
 line{
     margin-left: 65px;
@@ -46,4 +54,12 @@ line{
 aside{
     margin-left: 65px;
     padding: 0;
+    font-size: 20px;
+    color: rgb(85, 77, 2);
+}
+line{
+    font-size: 25px;
+    font-family: Titillium Web;
+    font-weight: 600;
+    color: rgb(85, 77, 2);
 }
