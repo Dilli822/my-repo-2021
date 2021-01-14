@@ -1,5 +1,52 @@
+.links {
+    display: inline-block;
+}
+
+.links {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.25;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-weight: 800;
+  }
+  #top, /* Offset linked sections to account for header. */
+  #mid,
+  #inner-mid
+  #bottom {
+    padding-top: 77px;
+    margin-top: -77px;
+  }
+  .links li {
+    display: inline-block;
+padding: 20px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+.links a {
+    display: block;
+    color: #4A4A4A;
+    font-size: 35px;
+  }
+  a.home {
+    color: rgb(0, 0, 255);
+  }
+  a.pagelink{
+      color: rgb(255, 0, 234);
+  }
+  a.pagelink1{
+      color: rgb(255, 218, 6);
+  }
+  a.pagelink2{
+      color: rgb(6, 255, 6);
+  }
+
 h1{
-    text-align: center;
+    text-align: left;
     font-size: 45px;
     padding: 20px;
 }
@@ -7,17 +54,18 @@ p{
     font-size: 25px;
     line-height: 45px;
     font-family: sans-serif;
+    padding: 30px;
 }
 img {
     max-width: 100%;
     display: flex;
     height: auto;
     margin: 0 auto;
-    padding-top: 45px;
+    padding-top: 170px;
+
    }
   
- 
-  
+
   @media (max-width: 460px) {
   img {
         height: auto;
