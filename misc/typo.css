@@ -3,7 +3,7 @@
 }
 
 .links {
-    font-family: "Arial", sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
     line-height: 1.25;
     background-color: #fff;
@@ -49,12 +49,17 @@ h1{
     text-align: left;
     font-size: 45px;
     padding: 20px;
+    font-family:'Sofia';
+    color: rgb(0, 117, 78);
 }
-p{
+   p {
     font-size: 25px;
     line-height: 45px;
     font-family: sans-serif;
     padding: 30px;
+    font-family:Abel;
+    color:brown;
+    font-weight: 600;
 }
 img {
     max-width: 100%;
@@ -71,4 +76,7 @@ img {
         height: auto;
     }
   }
-  
+  body{
+      background-color: rgb(248, 247, 241);
+  }
+ 
