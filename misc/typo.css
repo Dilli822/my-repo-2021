@@ -1,3 +1,4 @@
+ /*from here */
 .links {
     display: inline-block;
 }
@@ -7,7 +8,7 @@
     font-size: 14px;
     line-height: 1.25;
     background-color: #fff;
-    position: fixed;
+    position: static;
     top: 0;
     width: 100%;
     font-weight: 800;
@@ -44,19 +45,19 @@ padding: 20px;
   a.pagelink2{
       color: rgb(6, 255, 6);
   }
-
+ /*end here */
 h1{
     text-align: left;
     font-size: 45px;
-    padding: 20px;
+    padding: 10px;
     font-family:'Sofia';
     color: rgb(0, 117, 78);
 }
    p {
-    font-size: 25px;
+    font-size: 18px;
     line-height: 45px;
     font-family: sans-serif;
-    padding: 30px;
+    padding: 10px;
     font-family:Abel;
     color:brown;
     font-weight: 600;
@@ -66,7 +67,7 @@ img {
     display: flex;
     height: auto;
     margin: 0 auto;
-    padding-top: 170px;
+    padding-top: 50px;
 
    }
   
