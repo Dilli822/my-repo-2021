@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(255, 78, 78, 0.637);
+    }
+    
+    header{
+        font-family: 'Lemonada', cursive;
+        font-size: 3.5em;
+        color:rgb(249, 250, 249);
+        border-bottom: 2px solid rgb(97, 93, 93);
+        opacity: 0.95;
+    }
+    
+    blockquote{
+        font-family: 'Sofia', cursive;
+        font-size: 2em;
+        color:rgb(250, 248, 248);
+     float: right;
+     opacity: 0.85;
+    }
+    img{
+        display: grid;
+        height: auto;
+        width:75%;
+        margin: auto; 
+        float: right;
+        border:3px solid black;
+    }
+    @media (max-width: 800px){
+        img{
+            float: right;
+        }
+    }
+    .explore{
+        color:rgb(0, 4, 248);
+     font-size: 2em;
+     text-decoration: none;
+     border: 2px solid rgba(8, 8, 8, 0.74);
+        height: auto;
+        width: auto;
+    }
+    .explore:hover{
+        background: rgb(109, 255, 80); 
+    }
+    .brief{
+        color:rgb(252, 251, 250);
+        font-size: 2vw;
+        font-family: 'Caveat', cursive;
+     
+    }
+    @media (max-width: 800px){
+        .brief, blockquote{
+            font-size: 3.5vw;
+            font-family: 'Caveat', cursive;
+        }
+    }
+    @media (max-width: 800px){
+        header{
+            font-size: 2em;
+        }
+    }
