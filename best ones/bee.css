@@ -37,4 +37,11 @@ align-content: center;
  padding: 0px;
  margin: 0px; 
   }
+  @media (max-width:100%){
+    .A, .b, #banner{
+padding: 10px;
+height: auto;
+font-size: auto;
+    }
+  }
  

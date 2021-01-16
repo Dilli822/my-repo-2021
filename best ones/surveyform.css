@@ -1,74 +1,82 @@
 body{
 background-image: url("https://scontent.fbir2-1.fna.fbcdn.net/v/t1.0-9/125762920_3023536597873954_5023565475812970788_o.jpg?_nc_cat=110&ccb=2&_nc_sid=730e14&_nc_ohc=B0iv_l0HQgUAX_SCfIZ&_nc_ht=scontent.fbir2-1.fna&oh=7065faaf95f60f2cf5f6aea77d09f45b&oe=6021BBA4");
-color: rgb(7, 252, 101);
+color: rgb(9, 255, 103);
 height: auto;
 max-width: 100%;
 margin: 0 auto;
 }
-@media (max-width: 400px){
-    body{
-    color: rgb(61, 255, 213);
-    }
-}
 
 
-h1{
+ h1{
    padding: 10px;
 text-align: center;
-background-color: rgba(219, 250, 240, 0.205);
+background-color: rgba(31, 10, 151, 0.445);
 }
+
 .grid-container{
     display:grid;
-    border: 0px solid rgb(255, 9, 9);
     margin-top: 135px;
     padding: 0 auto;
     height: auto;
-    background-color: rgba(0, 235, 243, 0.164);
+    background-color: rgba(0, 235, 243, 0.144);
     justify-content: center;
     flex-wrap: wrap;
 }
+
 #name{
     font-size: 30px;
     border-radius: 5%;
     color:rgb(253, 253, 253);
 }
+
 #email{
     font-size: 30px;
     border-radius: 5%;
-    color:rgb(253, 253, 253);
+    color:rgb(2, 2, 2);
 }
+
 #number{
     font-size: 30px;
     border-radius: 5%;
-    color:rgb(255, 192, 192);
+    color:rgb(255, 255, 255);
 }
+
 #question{
     font-size: 30px;
     border-radius: 5%;
-    color:rgb(173, 12, 152);  
+    color:orangered;
 }
 
 #radio{
     font-size: 30px;
     border-radius: 5%;
-    color:rgb(252, 166, 7);
+    color:rgb(255, 255, 255);
 }
 
 #quest{
     font-size: 30px;
     border-radius: 5%;
-    color:rgb(247, 65, 65);
+    color:rgb(51, 255, 0);
 }
 
 
 #enquiry{
     font-size: 30px;
     border-radius: 5%;
-    color:rgb(21, 248, 0);
+    color:rgb(255, 255, 255);
 }
+
+
 #button{
         width: 100%;
-        color:rgb(252, 136, 155);
+        color:rgb(255, 255, 255);
         border-radius: 2px;
         font-size: 30px;
+}
+
+
+@media (max-width: 800px){
+    #name, #email, #number, #question,#radio, #quest ,#enquiry, #button{
+    font-size: 15px;
+    }
 }
