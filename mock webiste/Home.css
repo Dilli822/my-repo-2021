@@ -3,17 +3,21 @@ img{
     max-width: 100%;
     padding: 0 auto;
 }
+
+
  header nav{
-    background-color: rgba(128, 255, 0, 0.699);
+  background-color: rgba(255, 192, 2, 0.788);
     }
+
 
  a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 200;
-    color:white ;
+    color:rgb(17, 0, 255) ;
     line-height: 75px; 
 }
+
 
 li{
     display: inline;
@@ -28,30 +32,34 @@ li{
 }
 
 a:hover{
-    color:blue;
+    color:rgb(253, 253, 253);
 }
 header nav:hover{
-    background-color: rgb(255, 192, 2);
+  background-color: rgba(128, 255, 0, 0.856);  
+  
 }
-
-
 
 
 .fig1{
     float:center;
 }
+
+
 h1{
     font-size: 30px;
     font-family:monospace;
     color:black;
     font-family: 'Alegreya SC', serif;
 }
+
+
 h2{
     color:rgba(136, 40, 40, 1);
     text-align: center;
     background-color:rgba(0, 0, 255, 0.336);
     font-family: 'Bad Script', cursive;
 }
+
 
 aside{
     float: top right;
@@ -60,21 +68,29 @@ aside{
     font-family:'Bad Script', cursive;
     font-weight: 600;
 }
+
+
 aside:hover{
     background-color: rgba(0, 26, 255, 0.39);
 transition-duration: 500ms;
 }
 
+
+
 @media(max-width: 800px){
-    header nav{
-      font-size: 10px;
+  h1, header nav{
+      font-size: 25px;
     } 
   }
+
+
   @media(max-width: 800px){
-      h1,aside{
-          font-size: 10px;
+      aside{
+          font-size: 15px;
       }
   }
+
+
   p{
       font-size:20px;
       font-weight: 450;
@@ -82,15 +98,20 @@ transition-duration: 500ms;
       font-family: 'Alegreya SC', serif;
       font-family: 'Spectral SC', serif;
   }
+
+
   @media(max-width: 800px){
     p{
       font-size: 10px;
       font-weight: 200;
     } 
   }
+
   .fig2{
     float: right;
   }
+
+
 footer{
     background-color:black ;
 }

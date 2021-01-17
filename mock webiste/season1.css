@@ -1,0 +1,58 @@
+img{
+    height: auto;
+    max-width: 100%;
+    padding: 0 auto;
+}
+
+
+ header nav{
+  background-color: rgba(255, 192, 2, 0.788);
+    }
+
+
+ a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    color:rgb(17, 0, 255) ;
+    line-height: 75px; 
+}
+
+
+li{
+    display: inline;
+    margin: 60px;
+
+}
+
+@media(max-width: 800px){
+  a,li{
+    margin: 1px;
+    line-height: 40px;
+
+  } 
+}
+
+a:hover{
+    color:rgb(253, 253, 253);
+}
+header nav:hover{
+  background-color: rgba(128, 255, 0, 0.856);  
+  
+}
+table,th,td{
+  height: 150px;
+  border: 1px solid;
+  width: 830px;
+}
+@media(max-width: 800px){
+ table,th,td{
+  width: 415px;
+ } 
+}
+.fig1{
+float: right;
+}
+.fig2{
+  float:right;
+  }
