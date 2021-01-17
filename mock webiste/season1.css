@@ -1,3 +1,6 @@
+body{
+  background-color: rgb(255, 255, 255);
+}
 img{
     height: auto;
     max-width: 100%;
@@ -9,13 +12,12 @@ img{
   background-color: rgba(255, 192, 2, 0.788);
     }
 
-
  a{
     text-decoration: none;
     font-size: 20px;
     font-weight: 200;
     color:rgb(17, 0, 255) ;
-    line-height: 75px; 
+    line-height: 45px; 
 }
 
 
@@ -40,19 +42,80 @@ header nav:hover{
   background-color: rgba(128, 255, 0, 0.856);  
   
 }
-table,th,td{
+table{
   height: 150px;
-  border: 1px solid;
-  width: 830px;
+  border: 2px solid;
+  width: 800px;
 }
+
+th{
+  height: 20px;
+  border: 2px solid;
+  width: 800px;
+}
+
+td{
+  border: 2px solid;
+  text-align:center;
+}
+
+
 @media(max-width: 800px){
  table,th,td{
-  width: 415px;
+  width: 400px;
+  margin-left: 40px;
+  text-align: center;
  } 
 }
+ 
+.a{
+  color:red;
+}
+
+p{
+  font-size: 1.78em;
+}
+@media(max-width: 800px){
+  h1,p{
+ font-size: 1em;
+  }
+}
+
+
 .fig1{
 float: right;
 }
-.fig2{
-  float:right;
+
+
+@media(max-width: 800px){
+  .fig1{
+    height: 305px;
   }
+}
+
+
+.fig2{
+  float: right;
+  }
+
+  .fig3{
+margin: 0px 100px;
+    }
+
+    @media(max-width: 800px){
+      .fig3{
+        margin: 0 auto;
+      }
+    }
+
+
+
+  footer{
+    background-color:black ;
+    margin-top: 5px;
+}
+@media(max-width: 800px){
+  footer{
+    margin: 0 auto;
+  }
+}
