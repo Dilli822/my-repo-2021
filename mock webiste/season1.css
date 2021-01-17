@@ -27,7 +27,7 @@ li{
 @media(max-width: 800px){
   a,li{
     margin: 1px;
-    line-height: 40px;
+    line-height:30px;
 
   } 
 }
@@ -67,8 +67,8 @@ td{
 
 @media(max-width: 800px){
  table,th,td{
-  width: 400px;
-  margin-left: 40px;
+  width: auto;
+  margin-left: auto;
   text-align: center;
  } 
 }

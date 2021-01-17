@@ -109,6 +109,15 @@ transition-duration: 500ms;
 
   .fig2{
     float: right;
+    height: auto;
+    max-width: 100%;
+  }
+
+  @media(max-width: 400px){
+    .fig2{
+     height:auto;
+     max-width: 100%;
+    } 
   }
 
 
