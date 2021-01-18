@@ -4,7 +4,7 @@ img{
     max-width: 100%;
     padding: 0 auto;
 }
-/*heading section*/
+/*header section*/
  header nav{
   background-color: rgba(255, 192, 2, 0.788);
     }
@@ -39,19 +39,39 @@ header nav:hover{
   background-color: rgba(128, 255, 0, 0.856);  
   
 }
+
+/*figure section*/
 .fig1{
   float: right;
 }
-p{
-  font-size:25px;
-}
+
+
 .fig2{
 margin-left: 352px;
+}
+
+
+/*P h2 section*/
+h1{
+  background-color: pink;
+  text-align: center;
 }
 h2{
   background-color: pink;
   text-align: center;
 }
+
+p{
+  font-size:25px;
+  padding: 40px;
+
+}
+
+h1:hover{
+  background-color: greenyellow;
+  color:white;
+}
+
 h2:hover{
   background-color: greenyellow;
   color:white;
@@ -62,30 +82,39 @@ font-size: 1.3em;
 background-color: greenyellow;
 }
 
-.box{
-  background-color: rgb(255, 255, 255);
-  border: 1px solid rgb(17, 0, 255);
-  padding: 20px;
-  text-align: center;
-  display: inline;
-  width:auto;
-   height:auto;
-}
+/*grid section*/
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   background-color: #f7f7f7;
-margin: auto;
+margin: 0px;
 width:auto;
 height:auto;
 }
 
+.box{
+  background-color: rgb(17, 17, 17);
+  border: 1px solid rgb(17, 0, 255);
+  padding: 20px;
+  text-align: center;
+  display: inline;
+  width:auto;
+  height:auto;
+  margin-top: 0px;
+}
 
 
-
-
-
+@media(max-width: 800px){
+  .box{
+    margin: auto;
+    width:auto;
+    height:auto; 
+    background-color: rgb(235, 45, 45);
+  border: 1px solid rgb(17, 0, 255);
+  text-align: center;
+  }
+}
 /*foot section*/
   footer{
     background-color:black ;
