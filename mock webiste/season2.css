@@ -71,10 +71,12 @@ h2:hover{
 p{
 font-size: 25px;
   padding: 40px;
+  background-color: rgb(243, 239, 239);
 }
 @media (max-width: 800px){
   p{
     font-size: 15px;
+    background-color: rgb(245, 233, 233);
   }
 }
 @media (max-width: 800px){
@@ -84,7 +86,8 @@ font-size: 25px;
 }
 
 .b{
-font-size: 1.3em;
+  margin: 20px;
+font-size: 1.5em;
 background-color: greenyellow;
 }
 
