@@ -1,3 +1,38 @@
 h1{
     text-align: center;
+    color:blue;
 }
+h2{
+    text-align: center;
+    color:blue;
+}
+body{
+    background-color: rgb(41, 39, 39);
+}
+.a{
+color:rgb(0, 38, 255);
+font-size:25px;
+text-decoration: none;
+}
+.b{
+    color:rgb(0, 38, 255);
+    font-size:25px;
+    text-decoration: none;
+    }
+    .fig1{
+        color:rgb(0, 38, 255);
+        font-size:25px;
+        text-decoration: none;
+        margin-left: 450px;
+        }
+    .fig2{
+        color:rgb(0, 38, 255);
+        font-size:25px;
+        text-decoration: none;
+        margin-left: 50px;
+    }
+    .c{
+        color:rgb(0, 38, 255);
+        font-size:25px;
+        text-decoration: none;
+    }
