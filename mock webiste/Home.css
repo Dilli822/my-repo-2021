@@ -23,12 +23,13 @@ img{
 li{
     display: inline;
     margin: 80px;
-
 }
 
 @media(max-width: 800px){
-  li{
-    margin: 1px;
+  a,li{
+    margin: 10px;
+    font-size: 10px;
+    line-height: 20px;
   } 
 }
 

@@ -72,11 +72,16 @@ p{
 font-size: 25px;
   padding: 40px;
   background-color: rgb(243, 239, 239);
+  font-family: 'Farro', sans-serif;
+  color:brown;
+  
 }
 @media (max-width: 800px){
   p{
     font-size: 15px;
     background-color: rgb(245, 233, 233);
+    font-family: 'Farro', sans-serif;
+    color:brown;
   }
 }
 @media (max-width: 800px){
@@ -121,7 +126,9 @@ height:auto;
 content{
   font-size:25px;
   padding: 40px;
-
+  font-family: 'Farro', sans-serif;
+  color:brown;
+  text-transform: capitalize;
 }
 @media(max-width: 800px){
   .box{
