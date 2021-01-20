@@ -1,2 +1,36 @@
+.grid-container{
+  display: grid;
+  width: 356px;
+  height: 1256px;
+  border: 2px solid rgb(255, 0, 191);
+ float: right;
+  grid-template-rows: auto auto auto;
 
+}
+.grid-items1{
+  display:grid ;
+  border: 2px solid red;
+  width: 350px;
+  height: 350px;
+  background: url("s4.jpg");
+ 
 
+}
+.grid-items2{
+  display: grid;
+  border: 2px solid rgb(102, 255, 0);
+  width: 350px;
+  height: 350px;
+  background: url("s4.jpg");
+}
+.grid-items3{
+  display: grid;
+  border: 2px solid rgb(17, 0, 255);
+  width: 350px;
+  height: 350px;
+  background: url("s4.jpg");
+}
+p{
+  color:white;
+  font-size: 35px;
+}
