@@ -45,11 +45,12 @@ margin-top: 0px;
 }
 p{
   size: 10px;
-  color:white;
+  color:rgb(255, 0, 0);
   text-transform: capitalize;
   margin-left: 50px;
   margin-top: 0px;
   font-size: 22px;
+  margin-right: 0px;
 
 }
 aside{
@@ -87,4 +88,43 @@ h2{
   display: grid;
   grid-template-columns: auto auto auto;
   text-align: center;
+}
+.grid-container2{
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin-top: 20px;
+}
+h3{
+  text-align:center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:crimson;
+}
+.grid-container3{
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.grid-container4{
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
+  margin-top: 20px;
+}
+h4{
+  font-size: 25px;
+  color:crimson;
+}
+.fig1{
+  margin-left: 50px;
 }
