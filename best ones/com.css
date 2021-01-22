@@ -9,10 +9,11 @@ a{
 .a1{
   font-size: 35px;
   margin-left: 50px;
+  font-weight: 950;
+  color:rgb(255, 0, 221);
 }
 .b{
   font-size: 20px;
-
   margin-left: 300px;
 }
 .c{
@@ -24,38 +25,66 @@ margin-top: 50px;
 background-color: aquamarine;
 }
 .a2{
-  padding: 20px;
+  padding: 30px;
 }
 .headings3{
   background: url("https://i.ytimg.com/vi/Lg0rxW0tt0I/maxresdefault.jpg");
   height: 500px;
-  width: 1250px;
+  width: 1245px;
+  margin-top: 20px;
 }
 h1{
   color:white;
 padding-top: 80px;
 margin-left: 50px;
+margin-top: 0px;
 
+}
+.group1{
+  margin-top: 50px;
 }
 p{
   size: 10px;
   color:white;
   text-transform: capitalize;
+  margin-left: 50px;
+  margin-top: 0px;
+  font-size: 22px;
+
 }
 aside{
   text-transform: uppercase;
   color:white;
-  size: 15px;
+  font-size: 20px;
   border: 2px solid crimson;
   width:15%;
   text-align: center;
   padding: 20px;
-  background-color:crimson;
+  background-color: rgb(2, 2, 2);
+  margin-left: 50px;
+  margin-top: 50px;
 
 }
-span{
+aside:hover{
+  background-color:crimson;
+}
+article{
   font-size: 10px;
   color:white;
-  opacity: 0.5;
-
+  opacity: 0.3;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+h2{
+  text-align:center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:crimson;
+}
+.grid-container1{
+  border: 2px solid black;
+  height: auto;
+  width: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
 }
