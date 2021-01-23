@@ -7,12 +7,13 @@
 </head> 
 <link href="formpart.css" type="text/css" rel="stylesheet">
 <body>
-    <div class="grid-container">
+        <div class="grid-container">
           <div class="items1">
             <header> Subscribe</header>
              <span>to our Newsletter</span><br>
              <form action="form-submit.php" method="post">
-             <input class="sus" id="text" placeholder="Enter your mail" type="text"/>
+             <label for="Subscribe"></label>
+             <input class="sus" id="Subscribe" name="suscribe" placeholder="Enter your mail" type="text" required />
              <button><img class="senticon" src="https://static.thenounproject.com/png/1498877-200.png"height="24" width="18" alt="sent button img"/></button></form></div>
 
            <div class="items2">
@@ -20,13 +21,13 @@
             <form action="form-submit.php"method="get">
                 <label class="name"for="Name">Name</label>
                 <label class="email" for="Email">Email</label><Br>
-                <Input class="namebox" id="Name" type="text" name="Name" placeholder="Your Name" autofocus/>
-                <Input class="emailbox" type="Text" type="text" name="Email" placeholder="Your Email" autofocus/><Br><Br><Br><Br>
-                <label class="subject" for="subject">Subject</label><Br><Br>
-                <Input class="subjectbox"type="text" id="subject" name="Subject" placeholder="subject"/><Br><Br><Br><Br>
+                <Input class="namebox" id="Name" type="text" name="Name" placeholder="Your Name" required autofocus/>
+                <Input class="emailbox" type="Text" type="text" name="Email" placeholder="Your Email" required autofocus/><Br><Br><Br><Br>
+                <label class="subject" for="Subject">Subject</label><Br><Br>
+                <textarea id="subject" name="blog" rows="7" cols="100" minlength="50" maxlength="350" required></textarea><Br><Br>
                 <label class="message" for="Message">Message</label><Br><Br>
-                <Input class="messagebox" type="textarea" id="Message" name="Message" placeholder="message"/><Br><Br><Br><Br>
-                <input class="submit" type="submit" value="Send"></form> </div>
+                <textarea id="subject" name="blog" rows="10" cols="100" minlength="50" maxlength="350" required></textarea><Br><Br>
+                <input class="submit" type="submit" value="Send"></form></div>
        
     </div>
     
