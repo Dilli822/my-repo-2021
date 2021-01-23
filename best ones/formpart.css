@@ -1,6 +1,6 @@
-.grid-container{
+.grid-container1{
     height:auto;
-    width: auto;
+    width: 1300px;
     border: 0px solid rgb(0, 0, 0);
     display: grid;
     grid-template-columns: auto auto;
@@ -20,14 +20,7 @@
     width: 800px;
     margin: 0px;
 }
-header{
-   color:rgb(2, 2, 2);
-   font-size: 28px;
-   font-weight: 800;
-   margin-left: 75px;
-   margin-top: 50px;
-   font-family:sans-serif;
-}
+
 span{
   font-size: 15px;
   margin-left: 75px; 
@@ -46,6 +39,7 @@ span{
 form{
   margin-left: 10px;
 }
+
 button{
   height:auto;
   width: auto;
@@ -54,11 +48,22 @@ button{
 }
 
 h1{
+  color:rgb(2, 2, 2);
+   font-size: 28px;
+   font-weight: 800;
+   margin-left: 75px;
+   margin-top: 50px;
+   font-family:sans-serif; 
+}
+
+h2{
   margin-top: 30px;
 margin-left: 300px;
 color:crimson;
 font-family:sans-serif;
+font-weight: 800;
 }
+
 .name{
   float:left;
   font-size: 25px;
@@ -112,3 +117,110 @@ font-family:sans-serif;
   background-color: rgb(199, 14, 255);
 }
 
+/*foot section*/
+.flex-box1{
+  border: 2px solid rgb(248, 248, 248);
+  grid-template-columns: auto auto auto;
+  height: 500px;
+  width: 1300px;
+  display: inline-flex;
+  background-color: black;
+  cursor: pointer;
+  flex: 50%;
+}
+.items3{
+  font-size: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  color:white;
+  text-align: center;
+  height: 460px;
+  width: 456px;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+.items4{
+  font-size:10px;
+  border: 2px solid rgb(0, 0, 0);
+  color:white;
+  text-align: center;
+  height: 460px;
+  width: 456px;
+  margin-top: 20px;
+}
+.items5{
+  font-size: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  color:white;
+  text-align: center;
+  height: 460px;
+  width: 456px;
+  margin-top: 20px;
+}
+.items6{
+  font-size: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  color:white;
+  text-align: center;
+  height: 460px;
+  width: 456px;
+  margin-top: 20px;
+  margin-right: 80px;
+}
+h3{
+  font-size: 20px;
+}
+p{
+  opacity: 0.5;
+  color:white;
+  cursor: pointer;
+  line-height: 40px;
+  margin-top: 60px;
+  font-size:18px;
+}
+
+.fig1{
+  margin-top: 10px;
+  margin-left: 0px;
+}
+.flex-box2{
+  border: 2px solid rgb(0, 0, 0);
+  grid-template-columns: auto auto auto;
+  height: 80px;
+  width: 1300px;
+  display: inline-flex;
+  background-color: black;
+  cursor: pointer;
+  margin: 0px;
+
+}
+aside{
+  color:white;
+ font-size: 20px;
+ margin-left: 80px;
+ margin-top: 20px;
+ opacity: 0.6;
+}
+span{
+  color:red;
+}
+.fig2{
+ margin-left: 620px;
+ margin-top: 30px;
+ opacity: 0.7;
+}
+.fig3{
+  margin-left: 30px;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+.fig4{
+  margin-left: 40px;
+  margin-top: 30px;
+  opacity: 0.7;
+}
+.fig5{
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-right: 10px;
+  opacity: 0.7;
+}
