@@ -1,0 +1,56 @@
+.flex-box{
+    border: 2px solid black;
+    grid-template-columns: auto auto auto;
+    height: 500px;
+    width: 1260px;
+    display: inline-flex;
+    background-color: black;
+    cursor: pointer;
+}
+.items1{
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    height: 460px;
+    width: 456px;
+    margin-top: 20px;
+}
+.items2{
+    font-size:20px;
+    border: 2px solid rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    height: 460px;
+    width: 456px;
+    margin-top: 20px;
+}
+.items3{
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    height: 460px;
+    width: 456px;
+    margin-top: 20px;
+}
+.items4{
+    font-size: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    color:white;
+    text-align: center;
+    height: 460px;
+    width: 456px;
+    margin-top: 20px;
+}
+p{
+    opacity: 0.5;
+    color:white;
+    cursor: pointer;
+    line-height: 40px;
+    margin-top: 60px;
+}
+.fig1{
+    margin-top: 10px;
+    margin-left: 0px;
+}

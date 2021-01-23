@@ -1,11 +1,10 @@
  li{
 display: inline;
-
 }
-
 a{
   text-decoration: none;
 }
+
 .a1{
   font-size: 35px;
   margin-left: 50px;
@@ -34,7 +33,7 @@ background-color: aquamarine;
   margin-top: 20px;
 }
 h1{
-  color:white;
+  color:rgb(0, 255, 255);
 padding-top: 80px;
 margin-left: 50px;
 margin-top: 0px;
@@ -55,7 +54,7 @@ p{
 }
 aside{
   text-transform: uppercase;
-  color:white;
+  color:rgb(255, 255, 255);
   font-size: 20px;
   border: 2px solid crimson;
   width:15%;
@@ -71,7 +70,7 @@ aside:hover{
 }
 article{
   font-size: 10px;
-  color:white;
+  color:rgb(255, 0, 0);
   opacity: 0.3;
   margin-top: 20px;
   margin-left: 35px;
@@ -128,3 +127,68 @@ h4{
 .fig1{
   margin-left: 50px;
 }
+
+.grid-container5{
+  border: 2px solid red;
+  height: 155px;
+  width: 1240px;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-top: 20px;
+  background: url("f.jpg");
+}
+
+H5{
+  color: crimson;
+  font-size: 900;
+  font-size: 35px;
+  margin-top: 0px;
+}
+h6{
+  color: crimson;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 50px;
+}
+h7{
+  color: crimson;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.grid-container6{
+  border: 2px solid red;
+  height: 455px;
+  width: 1240px;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+h8{
+  color: crimson;
+  font-weight: 900;
+  font-size: 35px;
+  margin-top: 50px;
+}
+.grid-container7{
+  border: 2px solid red;
+  height: 455px;
+  width: 1240px;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.grid-container8{
+  border: 2px solid red;
+  height: 455px;
+  width: 1240px;
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+  margin-top: 20px;
+  background-color: darkblue;
+}
+
