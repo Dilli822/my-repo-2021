@@ -1,23 +1,25 @@
 .flex-box{
-    border: 2px solid black;
+    border: 2px solid rgb(248, 248, 248);
     grid-template-columns: auto auto auto;
     height: 500px;
     width: 1260px;
     display: inline-flex;
     background-color: black;
     cursor: pointer;
+    flex: 50%;
 }
 .items1{
-    font-size: 20px;
+    font-size: 15px;
     border: 2px solid rgb(0, 0, 0);
     color:white;
     text-align: center;
     height: 460px;
     width: 456px;
     margin-top: 20px;
+    margin-left: 80px;
 }
 .items2{
-    font-size:20px;
+    font-size:15px;
     border: 2px solid rgb(0, 0, 0);
     color:white;
     text-align: center;
@@ -26,7 +28,7 @@
     margin-top: 20px;
 }
 .items3{
-    font-size: 20px;
+    font-size: 15px;
     border: 2px solid rgb(0, 0, 0);
     color:white;
     text-align: center;
@@ -35,22 +37,61 @@
     margin-top: 20px;
 }
 .items4{
-    font-size: 20px;
+    font-size: 15px;
     border: 2px solid rgb(0, 0, 0);
     color:white;
     text-align: center;
     height: 460px;
     width: 456px;
     margin-top: 20px;
+    margin-right: 80px;
 }
+
 p{
     opacity: 0.5;
     color:white;
     cursor: pointer;
     line-height: 40px;
     margin-top: 60px;
+    font-size:18px;
 }
+
 .fig1{
     margin-top: 10px;
     margin-left: 0px;
+}
+.flex-box2{
+    border: 2px solid rgb(0, 0, 0);
+    grid-template-columns: auto auto auto;
+    height: 100px;
+    width: 1260px;
+    display: inline-flex;
+    background-color: black;
+    cursor: pointer;
+    margin: 0px;
+}
+aside{
+    color:white;
+   font-size: 20px;
+   margin-left: 80px;
+   margin-top: 10px;
+   text-align: center;
+}
+span{
+    color:red;
+    text-align: center;
+
+}
+.fig2{
+   margin-left: 575px;
+}
+.fig3{
+    margin-left: 40px;
+
+}
+.fig4{
+    margin-left: 40px;
+}
+.fig5{
+    margin-left: 40px;
 }
