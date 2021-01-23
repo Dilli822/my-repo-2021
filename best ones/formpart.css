@@ -1,0 +1,92 @@
+.grid-container{
+    height:auto;
+    width: auto;
+    border: 2px solid rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.items1{
+      border: 1px solid rgb(14, 14, 14);
+      display: inline;
+      height:auto;
+      width: 400px;
+  
+}
+.items2{
+    display: inline;
+    border: 1px solid rgb(5, 5, 5);
+    height:auto;
+    width: 850px;
+    margin: 0px;
+}
+header{
+   color:rgb(2, 2, 2);
+   font-size: 28px;
+   font-weight: 800;
+   margin-left: 75px;
+   margin-top: 50px;
+}
+span{
+  font-size: 15px;
+  margin-left: 75px; 
+  color: crimson;
+  margin-bottom: 0px;
+}
+
+.sus{
+  font-size: 22px;
+  margin-left: 65px;
+  margin-top: 0px;
+}
+
+form{
+  margin-left: 10px;
+}
+button{
+  height:auto;
+  width: auto;
+  cursor: pointer;
+}
+
+h1{
+  margin-top: 30px;
+margin-left: 300px;
+}
+.name{
+  float:left;
+  font-size: 25px;
+}
+.namebox{
+float:left;
+font-size: 25px;
+}
+.email{
+font-size:25px;
+margin-left: 370px;
+}
+.emailbox{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 100px;
+}
+.subject{
+  float: left;
+  font-size: 25px;
+}
+.subjectbox{
+  float:left ;
+  font-size: 25px;
+}
+.message{
+  float:left ;
+  font-size: 25px;
+}
+.messagebox{
+  float:left ;
+  font-size: 25px;
+}
+.submit{
+  float: left;
+}
+
