@@ -23,7 +23,7 @@ article{
   border: px solid rgb(0, 0, 0);
   height:  200px;
   width: 250px;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 .items2{
@@ -46,7 +46,7 @@ article{
   margin-right: 150px;
 }
 .grid-box{
-  border: 2px solid;
+  border: px solid;
   width: auto;
   height: auto;
   display: grid;
@@ -66,12 +66,12 @@ article{
   float: right;
 }
 h2{
-  margin-left:60px;
+  margin-left:80px;
   font-family: 'Rubik', sans-serif;
 }
 p{
 color:rgb(37, 17, 17); 
-margin-left:60px;  
+margin-left:80px;  
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 font-size: 15px;
 opacity: 0.5;
@@ -80,7 +80,7 @@ span{
   color:crimson;
 }
 ul{
-  margin-left: 50px;
+  margin-left: 80px;
 }
 li{
   color:crimson; 
