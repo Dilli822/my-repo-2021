@@ -1,3 +1,121 @@
+/*jan24 poster part*/
+li{
+  text-decoration: none;
+     }
+  h1{
+    text-transform: uppercase;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+    color:crimson;
+  }
+  .grid-container1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    height:  auto;
+    width: auto;
+    float: center;
+  
+  }
+  article{
+    color:white;
+  }
+  .items1{
+    display: inline;
+    border: px solid rgb(0, 0, 0);
+    height:  200px;
+    width: 250px;
+    margin-left: 80px;
+  }
+  
+  .items2{
+    display: inline;
+    border: px solid rgb(6, 1, 14);
+    height:  200px;
+    width: 250px; 
+  }
+  .items3{
+    display: inline;
+    border: px solid rgb(9, 1, 82);
+    height:  200px;
+    width: 250px;
+  }
+  .items4{
+    display: inline;
+    border: px solid rgb(24, 24, 23);
+    height: 200px;
+    width: 250px;
+    margin-right: 150px;
+  }
+  .grid-box{
+    border: px solid;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .head{
+    border: 0px solid rgb(7, 7, 7);
+     width: auto;
+    height:auto;
+  } 
+  
+  .poster{
+    border: px solid rgb(7, 7, 7);
+    display: inline;
+    width: auto;
+    height: auto;
+    float: right;
+  }
+  h2{
+    margin-left:80px;
+    font-family: 'Rubik', sans-serif;
+  }
+  p{
+  color:rgb(37, 17, 17); 
+  margin-left:80px;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  opacity: 0.65;
+  }
+  .span1{
+    color:crimson;
+    font-size: 55px;
+  }
+  ul{
+    margin-left: 80px;
+  }
+  li{
+    color:crimson; 
+     font-size: 20px;
+  }
+  .aside{
+    color:rgb(0, 0, 0);
+    font-family: 'Inconsolata', monospace;
+    opacity: 0.85;
+  }
+  .sidehead{
+    border: 0px solid rgb(7, 7, 7);
+    margin-top: 140px;
+    text-align: left;
+  } 
+  
+  #join{
+    text-transform: uppercase;
+    border: 2px solid;
+    font-size: 15px;
+    width: 45%;
+    height: 45px;
+    color:white;
+    background-color: crimson;
+    cursor: pointer;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+
+
+
+
 
 /*jan23 foot & form part*/
 .grid-container10{
@@ -238,4 +356,4 @@ span{
   margin-bottom: 20px;
   opacity: 0.7;
 }
-/*jan24 poster part*/
+
