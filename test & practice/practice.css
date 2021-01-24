@@ -1,0 +1,40 @@
+.grid-box{
+    border: 2px solid;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.head{
+    border: 0px solid rgb(7, 7, 7);
+     width: auto;
+    height:auto;
+} 
+
+.poster{
+    border: px solid rgb(7, 7, 7);
+    display: inline;
+    width: auto;
+    height: auto;
+    float: right;
+}
+p{
+ color:red;   
+}
+ul{
+    margin-left: 50px;
+    font-size: 25px;
+}
+li{
+    color:crimson;
+}
+aside{
+    color:gray;
+}
+.sidehead{
+    border: 0px solid rgb(7, 7, 7);
+    margin-top: 100px;
+    text-align: left;
+} 
+
+
