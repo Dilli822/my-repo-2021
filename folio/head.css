@@ -1,3 +1,8 @@
+ /*1st heading jan24*/
+*{
+  margin: 0;
+   padding: 0;
+}
 li{
     display: inline;
   }
@@ -7,8 +12,9 @@ li{
     font-size: 35px;
     margin-left: 50px;
     font-weight: 950;
-    color:rgb(255, 0, 221);
+    color:rgb(255, 75, 4);
     font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
   }
   .b{
     text-decoration: none;
@@ -16,10 +22,27 @@ li{
     margin-left: 300px;
     font-family: 'Montserrat', sans-serif;
   }
-  .c{
-    text-decoration: none;
-    margin-left: 50px;
-  }
+  .btn,.search-box{
+    position: absolute;
+    top:8.5%;
+    left: 90%;
+    transform: translate(-50%, -50%); 
+    margin-left:5px;
+    margin-top: 15px;
+ }
+ .search{
+     border: 3px solid rgba(211, 116, 7, 0.623);
+     height: 28px;
+     width: 170px;
+     border-radius: 50px;
+     padding: 0px 8px;
+ }
+ .group1{
+   border: 2px solid;
+   width: auto;
+   height: auto;
+ }
+ /*1st heading*/
   .headings2{
     font-size: 25px;
   margin-top: 50px;

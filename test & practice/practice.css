@@ -1,40 +1,57 @@
-.grid-box{
+*{
+   margin: 0;
+    padding: 0;
+}
+@media (max-width: 800px){
+    .box5,.flex-box{
+        border: 2px solid;
+    display: flex; 
+    }
+}
+.flex-box{
     border: 2px solid;
-    width: auto;
-    height: auto;
-    display: grid;
-    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;   
 }
-.head{
-    border: 0px solid rgb(7, 7, 7);
-     width: auto;
-    height:auto;
-} 
+.box1{
+    display: flex;
+    border: 2px solid;
+    background-color: aqua;  
+    font-size: 45px; 
+    padding: 50px;
+    justify-content: space-around;
+    
 
-.poster{
-    border: px solid rgb(7, 7, 7);
-    display: inline;
-    width: auto;
-    height: auto;
-    float: right;
 }
-p{
- color:red;   
+.box2{
+    display: flex;
+    border: 2px solid;
+    background-color: aqua;  
+    font-size: 45px; 
+    padding: 50px;
+    justify-content: space-around;
 }
-ul{
-    margin-left: 50px;
-    font-size: 25px;
+.box3{
+    display: flex;
+    border: 2px solid;
+    background-color: aqua;  
+    font-size: 45px; 
+    padding: 50px;
+    justify-content: space-around;
 }
-li{
-    color:crimson;
+.box4{
+    display: flex;
+    border: 2px solid;
+    background-color: aqua; 
+    font-size: 45px; 
+    padding: 50px; 
 }
-aside{
-    color:gray;
+.box5{
+    display: flex;
+    border: 2px solid;
+    background-color: aqua; 
+    font-size: 45px; 
+    padding: 60px;
+    justify-content: space-around;
 }
-.sidehead{
-    border: 0px solid rgb(7, 7, 7);
-    margin-top: 100px;
-    text-align: left;
-} 
-
-

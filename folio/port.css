@@ -95,7 +95,7 @@ li{
   }
   .sidehead{
     border: 0px solid rgb(7, 7, 7);
-    margin-top: 140px;
+    margin-top: 200px;
     text-align: left;
   } 
   
@@ -320,37 +320,36 @@ h13{
   margin: 0px;
 
 }
-aside{
+h17{
   color:white;
- font-size: 15px;
+ font-size: 12px;
  margin-top: 20px;
  opacity: 0.8;
- margin-left: 150px;
 }
 span{
   color:red;
   margin: 0px;
 }
 .fig12{
- margin-left: 740px;
+ margin-left: 850px;
  margin-top: 10px;
  opacity: 0.7;
  margin-bottom: 20px;
 }
 .fig13{
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 10px;
   margin-bottom: 20px;
   opacity: 0.7;
 }
 .fig14{
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 10px;
   opacity: 0.7;
   margin-bottom: 20px;
 }
 .fig15{
-  margin-left: 20px;
+  margin-left: 30px;
   margin-top: 10px;
   margin-right: 20px;
   margin-bottom: 20px;
