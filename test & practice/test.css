@@ -1,11 +1,86 @@
-.grid-box{
-border: 2px solid;
-grid-template-columns: auto auto;
-grid-template-rows: auto auto ;
+*{
+    margin: 0;
+    padding: 0;
 }
-.items1{
-  display: inline;
+h20{
+  margin: 0px 450px;
+  font-size: 45px;
+  color:crimson;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.items{
-  display: inline;
+h21{
+    color:white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.slider{
+    display: grid;
+    border: 0px solid rgb(235, 9, 9);
+    grid-template-columns: auto auto auto; 
+   background: url("https://lh3.googleusercontent.com/cqrYKr_zyTzPDy1Ocuu-zCPrjnPrOs75FgNCyCkDs19bPtCaYWOyypWnYLcihOTSUxrIMzIVQQYZHhk8WYi9nIICMT0Mg3gw5-0J483eYCNObkMPEh8G71ypJCPd5J1kgMt9gYtBI5uLNpAIaQAFoaeQ222-ruLknX0JRhIM-03063tKWHlKvLz2cwtJLjtgjqz8UyOXp6lc2f1iJQ90xOc_NqgLx1plDoGSOLioouSv1zFoE1doJUdxXfQMosUu8e5BidKrcDzPnSlkWvusKhmW8dKlBXpa8BGuqSJC80IxWKU2NFsmWeVlRyduNSHFbQgWPMtdMt9kmJb9It3h5ABh7lKyO9wPyBt1sUUlNCR15eRnoChFM-5tLgMGEzxPEfEBpwVfkA__F6f1vIoXXR3uLE0CEne_HlUpPRZld6ELIW_05wGRv2JQ3zhrJwGaqZ2Gap4pkWekR2WKSCJtErLAAoUv5gaFLDRpSkI1puGAewYMTFTzN9irfJa799Oy8glmfjQn0kzCFoOvrhh08yzeovvYPkzkOywLvNgaf72T4rbTGgY7PTVuiZsAx7tdc7HyDfb7s5JynQrTo_WO6kY0ro4pnRI4_nQaQmS7BE5qYPwDUGrqk8BHaqdZutHXOZ4ffpq-fEVDqkMr_T5et-HXz6bGzZuSAPxsFRhbvRy6a1zAPVhmwfkRb_Yv=s328-no?authuser=0");
+   background-repeat:no-repeat;
+  width: auto;
+  height: 500px;
+ 
+}
+.slide1{
+    display: inline;
+    border: px solid black;
+    grid-template-columns: auto auto auto auto;   
+}
+.slider .image {
+	position: relative;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+    border: px solid blue;
+
+}
+.slider .image2, .image3 {
+	position: relative;
+	margin: 0;
+	left: 0;
+	animation: 10s slider infinite;
+    border: px solid blue;
+    width: auto;
+
+}
+.slider .image img {
+	width: auto;
+	float: left;
+    border: 0px solid red;
+    margin: 0;
+    left: 0;
+    position: relative;
+}
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -50%;
+	}
+	50% {
+		left: -50%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: 100%;
+	}
+	95% {
+		left: 300%;
+	}
+	100% {
+		left: 400%;
+	}
+}
+
+

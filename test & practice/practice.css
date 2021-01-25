@@ -1,57 +1,49 @@
-*{
-   margin: 0;
-    padding: 0;
+#slider {
+	overflow: hidden;
+	border: 20px solid green;
+	height: 450px;
+	width: 1200px;
 }
-@media (max-width: 800px){
-    .box5,.flex-box{
-        border: 2px solid;
-    display: flex; 
-    }
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slider infinite;
+	border: 5px solid blue
 }
-.flex-box{
-    border: 2px solid;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row-reverse;   
+#slider figure img {
+	width: 20%;
+	float: left;
+	border: 15px solid red;
 }
-.box1{
-    display: flex;
-    border: 2px solid;
-    background-color: aqua;  
-    font-size: 45px; 
-    padding: 50px;
-    justify-content: space-around;
-    
 
-}
-.box2{
-    display: flex;
-    border: 2px solid;
-    background-color: aqua;  
-    font-size: 45px; 
-    padding: 50px;
-    justify-content: space-around;
-}
-.box3{
-    display: flex;
-    border: 2px solid;
-    background-color: aqua;  
-    font-size: 45px; 
-    padding: 50px;
-    justify-content: space-around;
-}
-.box4{
-    display: flex;
-    border: 2px solid;
-    background-color: aqua; 
-    font-size: 45px; 
-    padding: 50px; 
-}
-.box5{
-    display: flex;
-    border: 2px solid;
-    background-color: aqua; 
-    font-size: 45px; 
-    padding: 60px;
-    justify-content: space-around;
+@keyframes slider {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
 }

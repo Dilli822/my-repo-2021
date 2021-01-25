@@ -1,0 +1,16 @@
+.items{
+    border: 2px solid black;
+    display: grid;    grid-template-columns: auto auto auto auto;
+  }
+  #slider{
+    border: 2px solid black;
+    grid-template-columns: auto auto auto auto;
+  }
+  #slides{
+    border: 2px solid black;
+    grid-template-columns: auto auto auto auto;
+  }
+  .slide-content{
+    border: 2px solid black;
+    grid-template-columns: auto auto auto auto;
+  }
