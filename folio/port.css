@@ -1,3 +1,80 @@
+/*JAN 25 NEW ARRIVALS PART*/
+*{
+    margin: 0;
+    padding: 0;
+}
+H1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:crimson;
+    padding: 20px;
+}
+
+.grid-container65{
+display: grid;
+border: 3px solid;
+grid-template-columns: auto auto auto;
+justify-content: space-evenly;
+}
+
+.box101{
+    display: grid;
+    border: px solid;
+    height: 250px;
+    width: 350px;
+    margin: 10px 5px;
+    }
+
+
+.box201{
+    display: grid;
+     border: px solid;
+     height: 250px;
+     width: 350px;
+     margin: 10px 5px;    
+ }
+
+span{
+    color:Red;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+h201{
+    color:black;
+    font-size: 20px;
+}
+h301{
+    color:black;
+    font-size: 15px;
+    opacity: 0.5;
+    padding: 5px;
+}
+.p7{
+    margin-top: 10px;
+}
+.read{
+    color:red;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 0.8;
+    padding: 5px;
+}
+/*JAN 25 NEW ARRIVALS MOBILE SCREEN PART*/
+@media (max-width: 800px){
+    .grid-container1{
+        display: grid;
+border: 0px solid;
+grid-template-columns: auto auto auto;
+justify-content: space-evenly;
+ }
+}
+
+@media (max-width: 800px){
+    .box1{
+margin:5px 25px;
+
+}
+}
+/*JAN 25 NEW ARRIVALS PART*/
 
 /*jan 25 slider part start*/
 *{
@@ -29,7 +106,7 @@ margin-top: 30px;
 /*this is slide laying on slide1 as bg image*/
 .slider{
   display: grid;
-  border: 1=px solid rgb(235, 9, 9);
+  border: px solid rgb(235, 9, 9);
   grid-template-columns: auto auto auto auto; 
  background: url("https://lh3.googleusercontent.com/EeCHBFmDmj6k26UGvD-ejsUGO8kqDEQwq3R9MOIgUS8LZG4LJapPFMMPT_LnkkdmN769gtNcdISxn4TDOriK9gT70wPbFSV_vByNnLqMGAD-GiIuALEGtPEquqt5lcUG6FAgS1l-lQ0U1LsYvMOVQtPwAWBMWZp-ygj8EYe05jGjmaClCZDWNpvO_SzB0hV953ArwRgv7xutMf_9LP33pR6h3XCL8PTMLmPW6M0i0TXgisUjmQ75chhVS18hiUUUVFll-h0juQpctk5rsuTbvXW5zgcR78GyZLMmxxl7aZiR5aWq6l0YYyQtihixsQ5Von8rkbv1PO170yjvCMkRw5FsCdR-oltObCv6y1B34C7b83yG3k9JcdCxPNJ58jIlANrPWY09g9CX1i2YzHQm6Dqh4oZoU7iiGeJxbJ52Ss6GycFPzbSToCGEz-I4KIe9Wj63LcyHQLXIFvAXhmUK_Xyp8LepIKlXx421Q4IlCAmpUksTeeEVBEA1FE9jX8VYOgodB4hoka8jYFjJqLElscp_tazDjVxIu7SCvRJluz_ajNE0GVk4jbTdBTRiCPgbZvWu3iDj52ZNoEs56kSqZ5MaSvFAxp1SfPntPUU-D9alRJGEeBdLx4o8z9nbu4_I1C8W7o-btx3arpDnrsEm2qimXrYSdycG_2Rcxq2JktfqxvWgND2JlNyoYBnV=s568-no?authuser=0");
  background-repeat:no-repeat;
@@ -96,6 +173,7 @@ li{
     height:  auto;
     width: auto;
     float: center;
+    border: 2px solid rgb(0, 0, 0);
   
   }
   article{
@@ -129,7 +207,7 @@ li{
     margin-right: 150px;
   }
   .grid-box{
-    border: px solid;
+    border: 2px solid;
     width: auto;
     height: auto;
     display: grid;
@@ -177,7 +255,7 @@ li{
   }
   .sidehead{
     border: 0px solid rgb(7, 7, 7);
-    margin-top: 200px;
+    margin-top: 160px;
     text-align: left;
   } 
   
@@ -200,6 +278,7 @@ li{
     width: auto;
     display: grid;
     grid-template-columns: auto auto;
+    border: 2px solid rgb(0, 0, 0);
 }
 .items10{
       border: px solid rgb(14, 14, 14);
@@ -376,14 +455,14 @@ h13{
   opacity: 0.7;
   color:white;
   cursor: pointer;
-  line-height: 25px;
+  line-height: 30px;
   margin-top: 25px;
   font-size:15px;
   font-family:sans-serif;
 }
 
 .mailicon{
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: 0px;
 }
 /*last*/
@@ -408,7 +487,7 @@ span{
   margin: 0px;
 }
 .fig12{
- margin-left: 850px;
+ margin-left: 872px;
  margin-top: 10px;
  opacity: 0.7;
  margin-bottom: 20px;
