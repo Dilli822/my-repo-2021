@@ -278,7 +278,7 @@ li{
     width: auto;
     display: grid;
     grid-template-columns: auto auto;
-    border: 2px solid rgb(0, 0, 0);
+    border: px solid rgb(0, 0, 0);
 }
 .items10{
       border: px solid rgb(14, 14, 14);
@@ -400,12 +400,13 @@ font-family:sans-serif;
   margin-top:10px;
   grid-template-columns: auto auto auto;
   height: auto;
-  width: auto;
+  width:auto;
   display: inline-flex;
   background: black;
   cursor: pointer;
   flex: 50%;
   border-bottom: 1px solid white;
+  margin: 0px 20px 0px 20px;
 }
 .items13{
   font-size: 10px;
@@ -474,8 +475,9 @@ h13{
   background-color: black;
   cursor: pointer;
   margin: 0px;
-
+  margin: 0px 20px 0px 20px;
 }
+
 h17{
   color:white;
  font-size: 12px;
