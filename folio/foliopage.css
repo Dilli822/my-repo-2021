@@ -557,6 +557,7 @@ justify-content: space-evenly;
   left: 400%;
 }
 }
+/*EXPERINECE PART START JAN 26*/
 .grid-containermarking{
   border: px solid;
   display: grid;
@@ -628,11 +629,12 @@ h68{
   margin-bottom: 20px;
 }  
 .line3{
-  border-bottom: 2px solid rgb(255, 0, 0);  
+  border-bottom: 2px solid rgb(3, 255, 57);  
   width: 65%;  
   padding: 11px;
   margin-bottom: 20px;
 }  
+/*EXPERINECE PART START JAN 26*/
 
 /*jan24 poster part*/
 li{
