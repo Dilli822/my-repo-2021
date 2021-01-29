@@ -30,3 +30,16 @@
     background: rgb(224, 222, 228);
     border: 2px solid;
 }
+#form{
+    width: 0px;
+}
+input{
+    background: rgb(236, 234, 234);
+    height: 2em;
+    font-family:cursive;
+}
+label{
+    font-size: 25px;
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

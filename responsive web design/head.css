@@ -1,0 +1,21 @@
+li{
+    display: inline-flex;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline; 
+}
+.figure{
+    background: url("https://wallpapercave.com/wp/uqy8U9A.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    max-width: 100%;
+    margin: 0 150px;
+    color:white;
+    text-align: center;
+    font-size: 45px;
+}
