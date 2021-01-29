@@ -7,3 +7,8 @@ i will be happy if you leave a feedback.this is made by only using html5 & css3 
 i have worked hard focused and utilize my whole skills as well as effort to create this beautifull folio.
 i hope this folio will reflect my dedication and hardwork. Thank you!
 I will be updating my skills styles , codes in upcoming days.till then goodbye keep on coding!
+NOTE*NOTE* THIS WEBSITE IS ONLY COMPATIBLE FOR  PC USERS. THIS IS NOT DESIGNED FOR MOBILE SCREEN USERS,I HIGHLY RECOMMEND TO USE IT IN THE PC OR TAB THANK YOU.
+SOURCES: GOOGLE,FACEBOOK, QUORA.
+CODE EDIOTR: MS VISUAL STUDIO CODE
+LANGUAGES: HTML5 & CSS.
+DURATION: LESS THEN 6 DAYS.
