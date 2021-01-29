@@ -1,22 +1,21 @@
-.grid-containermarking{
+.grid-container656{
     border: px solid;
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: space-between;
     height: auto;
     width:auto;
-    justify-content: stretch;
-     
 
 }
-.grid-boxes{
-    border: 2px solid rgb(19, 18, 18);
-    height: 270px;
-    width: 500px;
+.grid-box45{
+    border: px solid rgb(19, 18, 18);
+    height: 450px;
+    width: 600px;
     padding: 30px;
 }
 .grid-box46{
-    border: 2px solid rgb(0, 0, 0);
-    height: 280px;
+    border: px solid rgb(0, 0, 0);
+    height: 450px;
     width: 500px;
     padding-top: 40px;
 }

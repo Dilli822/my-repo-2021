@@ -1,0 +1,32 @@
+.grid-container{
+    display:grid;
+    border: 2px solid;
+    grid-template-columns: 50px 1fr 50%;
+    grid-template-rows: 2fr 100px 75%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    font-size: 45px;
+}
+.items1{
+    background: rgb(225, 0, 255);
+    border: 2px solid;
+}
+.items2{
+    background: rgb(240, 40, 4);
+    border: 2px solid;
+}
+.items3{
+    background: rgb(255, 208, 0);
+    border: 2px solid;
+}
+.items4{
+    background: rgb(47, 0, 255);
+    border: 2px solid;
+}.items5{
+    background: rgb(0, 255, 64);
+    border: 2px solid;
+}
+.items6{
+    background: rgb(224, 222, 228);
+    border: 2px solid;
+}
