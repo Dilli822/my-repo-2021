@@ -1,103 +1,55 @@
-.header-flex{
-	display: flex;
-	border: px solid;
-	justify-content: left;
-	background: rgb(0, 0, 0);
-	cursor: pointer;
-}
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
-.flex0{
-	background: rgb(0, 0, 0);
-	color:white;
-	font-size: 2em;
-	border: px solid;
-	flex-grow: auto;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-.flexsearchbar{
-	background: rgb(0, 0, 0);
-	color:white;
-	font-size: 2em;
-	border: px solid;
-	flex-grow: auto;
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
 }
-input{
-	border: px solid red;
-	width: 80%;
-	background: white;
-	color: rgb(14, 13, 13);
-	font-size: 20px;
-	float:left;
-	margin-top: 10px;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	
+body {
+	line-height: 1;
 }
-.sbtn{
-	font-size: 21px;
-	background: #f89500;
-	color: white;
-	border: 0px solid grey;
-	cursor: pointer;
-	margin-top: 12px;
-	
+ol, ul {
+	list-style: none;
 }
-.flexshop{
-	color:white;
-	font-size: 2em;
-	border: px solid;
-	flex-grow: 8;
-	text-align: center;
+blockquote, q {
+	quotes: none;
 }
-
-.shop{
-	color:rgb(248, 247, 247);
-	height: 2em;
-	font-size: 0.5em;
-	font-weight: lighter;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
 }
-
-.flexsignup{
-	color:white;
-	font-size: 2em;
-	border: px solid;
-	flex-grow: auto;
-	text-align: center;
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
-
-.register{
-	flex-grow:9;
-	color:rgb(248, 247, 247);
-	height: 2em;
-	font-size: 0.5em;
-	font-weight: lighter;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.flexcall{
-	font-size: 1em;
-	color:white;
-	border: px solid;
-	flex-grow: 5;
-	text-align: center;
-	padding: 5px;
-	font-family:'Courier New', Courier, monospace;
-	font-weight: lighter;
-}
-.flexcart{
-	color:white;
-	font-size: 1em;
-	flex-grow: 1;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	float:left;
-	font-weight: lighter;
-}
-
-#bid{
-color:rgb(255, 115, 0);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-float: center;
-font-size: 18px;
-font-weight: lighter;
-}
-
- 
+/*above are the default css rules*/
