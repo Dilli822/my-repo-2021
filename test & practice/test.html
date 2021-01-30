@@ -1,20 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </head>
-<link href="test.css" rel="Stylesheet" type="text/css">
 <body>
-    <div class="flexy">
-    <form action="form-submit.php" metho="post">
-        <img class="ico" src="https://lh3.googleusercontent.com/SvsohjMCQdi1mvwLVEJ5q1FJThTWvAlqSYhRuV__CQrSaawFL45VeqrOHD3w8ilcBC0C-BbeaXfBSg-GDGJ8g0YJCI1ZE9kyCNnX1qSXjGVIS_8J8GQQEWAsr49MiWW6CzfFxPwM6v4k3CuwdlmCGTAY-Xvvvpp_7_hzYPBxwZK4dcNX4CHrUv2SvpP0USAg6kquCLd5AgWy2jVAjd8HtS2jwqmaL8B74GG-03dFDU0xlovRg75hmP8KxtVMXmT-pJ8qSxRkV_locQALykSnjASlgVcDl2KBOaowG3Guc8VXOt4e94mUHmgLcyNEro5jC0q7Jzkg-528hyy35sSY0rONZCtIGXIGb-W5TS8sOZji15zehkY03oExmn4LdvmfOGNntBhxq_GJFPbFKWcQZUoC4dkUAtTg2uaNXZ5UVBGFkjCrywDCJFLsSnyzKY_j2OmhsBa3QufzBhhI7Xu3ffUonYZZJH5SwXDN3VIk5KKdWclf7hKHawnbn34O2-ufbQ_DgNXSzoN-JUK1B0SbQxRIfcORLe6hOv9fkre3EpcnUP-jqP9rA0rSx_P_Qr3TBxvBPx8tzy1y5sfQDybHLybIsK6wse3NfbU1PvT5Dx73hmanRKtxonjRGTBO5uYwJlE0tPTb6vKtaG5iYyhuovpkkerFodGu-AF0ivaQpkO0sFLzwDwy6e9SQxCn=s186-no?authuser=0" height="40"/>
-        <select class="drop" id="dilli" name="dilli">
-        <option  class="drop1" value=""checked>Dilli Hang Rai</option>
-        <option class="drop2" value="login for consultant">Login for consultant</option>
-        <option class="drop2" value="login for Company">Login for Company</option>
-        </select></form></div>
-  
+<label for="shop"></label>
+<select name="shop" id="shop">
+    SHOP
+    <option value="shop">shop</option>
+</select>
+
 </body>
-</html>
+</html> 

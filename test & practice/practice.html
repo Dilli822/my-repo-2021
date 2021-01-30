@@ -7,41 +7,48 @@
     </title>
 	<link href="practice.css" type="text/css" rel="stylesheet">
 <script src="sipt.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head> 
 <body>
-<input type="file">
-<input type="password" name="password"/>
-<div class="container"></div>
-<div class="content"> hello
-    &copy;
+<div class="header-flex">
+    <div class="flex0">
+    <img src="https://lh3.googleusercontent.com/O4ARC7Zt_MjhVkI45Hq6lX4RDI4q0dqH7wCsanKeOsU_1_8opS-QUI8-tkBATM4H0rCJrHo4QUFuNitbzVNM5HtrGdk7fLsDXD3o_c-b2skcdrpjf_ybLixKqrv5115KQDtZSpjfoJOhn9i7oyXTYQF_PYASayYZUIjZLvAxuXayOsxKlf2ity48CBMaC6iCrm0pfGa0FEuik1K59agL_DusWjwV5sTnzLWHswXNxhLbEdSvkAdCSpoFLD5xa8iGz2aBE0TmsFxcbq384a-LinD-ZRe3KNDyLmMRFlvNx3fHkW66cAgrrjuJZtRc9JGZM1SxwlR7N2KxpKfjbJzMz6RnsTP4tp-a3Cb29r6si8JHhtCO4wK9PLlN3FY12jagdUc88xt4Cv5FAmZOOKBkpRWxHXhDJIHVdUv1cWs6pQoI_q0W4K2JiGng5ItaFJtA3TGqVW2uop6GA1kNu1iPbUWl5MobF6Dcq3cr_uZlmWzw1zd3qeSG7hqScJJqlZ4DA8OxqU93apZvyU1jn39_sB3DwBM2CCSGZMydz09KeWPu3uWdAvYICJhIg0fQwh0uvxICIUmFzZghQ4wlisYL8eBjxI6Qc_VKUCj_1deZ3QDWrzsUD3cM75jyWpucUz-Bc10Pc-Mwk3NcGtUlAFPsEU6pA09t6nlUO_4KFVsKi6ugkubAmZ_fVWDGsXZC=w100-h56-no?authuser=0" alt="wall-e img">
+    </div>
+    <div class="flexsearchbar">
+    <form action="process.php">
+      <input type="text" placeholder="search..." name="search">
+      <button class="sbtn" type="submit">
+        <i class="fa fa-search"></i>
+      </button></form> </div>
+    <div class="flexshop">
+        <form action="process.php">
+        <label class="shop" for="shop">SHOP</label>
+        <select  name="shop" id="shop">
+        <option value="shop" Type="text"></option>
+    </select></form> </div>
+
+    <div class="flexsignup">
+        <form action="process.php">
+        <label class="register" for="register">Register/Sign Up</label>
+        <select  name="register" id="register">
+        <option value="register" Type="text"></option>
+    </select></form> </div>
+
+    <div class="flexcall">
+        +977-9810430825<br>
+        SUN-FRI 9AM-5PM
+
+    </div>
+    <div class="flexcart">
+        <form action="process.php">
+            <label for="bid"></label>
+         <i class="fa fa-shopping-cart" style="font-size:38px;color:red">
+        </i>MY CART <select name="bid" id="bid">
+           <option class="bid" value="bid" Type="text">$0.00</option></select>
+        </form></div>
+        
 </div>
-<a href="newarrivals.html" target="_blank" class="link-title">arrivals</a>
-<div id="home">home</div>
-<img src="http://placehold.it/200x200?text=profile+image" class="image" alt="hellow">
-&copy;all rights reserved 2021&nbsp;
-jk 
-<p></p>
-<p>lorem</p>
-<p></p>
-<p></p>
-<h></h><h1>45654</h1>
-<h1></h1>
-<h1></h1>
-<h1></h1>
-<h1></h1>
-<div id="from">
-<form action="process.php">
-    <label for="name">Name:</label>
-<input type="text" name="Name" placeholder="type your name">
-<label for="subject">Subject:</label>
-<textarea name="Subject" id="subjects" cols="50" rows="20" placeholder="subject"></textarea>
-<label for="Email">Email:</label>
-<input type="email" name="Name" placeholder="type your email">
-<label for="password">password:</label>
-<input type="password" name="password" placeholder="type your password">
-<label for="submit"></label>
-<input type="submit" name="submit">
-</div>
-</form>
 </body>
 </html>
