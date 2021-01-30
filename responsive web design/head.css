@@ -63,29 +63,109 @@ h1{
     text-transform: lowercase;
 }
 .navheader{
-    color:rgb(255, 0, 0);
+    color:white;
     font-family:Arial, Helvetica, sans-serif;
 }
-li{
-    display: inline-flex;
-    padding: 30px;
-    margin: 20px;
+.header-flex{
+	display: flex;
+	border: px solid;
+	justify-content: left;
+	background: rgb(0, 0, 0);
+	cursor: pointer;
+}
 
+.flex0{
+	background: rgb(0, 0, 0);
+	color:white;
+	font-size: 2em;
+	border: px solid;
+	flex-grow: auto;
 }
-a{
-    text-decoration: none;
+.flexsearchbar{
+	background: rgb(0, 0, 0);
+	color:white;
+	font-size: 2em;
+	border: px solid;
+	flex-grow: auto;
 }
-a:hover{
-    text-decoration:underline; 
+input{
+	border: px solid red;
+	width: 80%;
+	background: white;
+	color: rgb(14, 13, 13);
+	font-size: 20px;
+	float:left;
+	margin-top: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	
 }
-.figure{
-    background: ("https://wallpapercave.com/wp/uqy8U9A.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 500px;
-    max-width: 100%;
-    margin: 0 150px;
-    color:white;
-    text-align: center;
-    font-size: 45px;
+.sbtn{
+	font-size: 21px;
+	background: #f89500;
+	color: white;
+	border: 0px solid grey;
+	cursor: pointer;
+	margin-top: 12px;
+	
 }
+.flexshop{
+	color:white;
+	font-size: 2em;
+	border: px solid;
+	flex-grow: 8;
+	text-align: center;
+}
+
+.shop{
+	color:rgb(248, 247, 247);
+	height: 2em;
+	font-size: 0.5em;
+	font-weight: lighter;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flexsignup{
+	color:white;
+	font-size: 2em;
+	border: px solid;
+	flex-grow: auto;
+	text-align: center;
+}
+
+.register{
+	flex-grow:9;
+	color:rgb(248, 247, 247);
+	height: 2em;
+	font-size: 0.5em;
+	font-weight: lighter;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flexcall{
+	font-size: 1em;
+	color:white;
+	border: px solid;
+	flex-grow: 5;
+	text-align: center;
+	padding: 5px;
+	font-family:'Courier New', Courier, monospace;
+	font-weight: lighter;
+}
+.flexcart{
+	color:white;
+	font-size: 1em;
+	flex-grow: 1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	float:left;
+	font-weight: lighter;
+}
+
+#bid{
+color:rgb(255, 115, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+float: center;
+font-size: 18px;
+font-weight: lighter;
+}
+
+ 
