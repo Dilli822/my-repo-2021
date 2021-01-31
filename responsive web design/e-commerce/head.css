@@ -53,6 +53,7 @@ table {
 	border-spacing: 0;
 }
 /*above are the default css rules*/
+
 h1{
     font-size: 1em;
     text-align: center;
@@ -183,7 +184,7 @@ input{
 
 
 .flexshop{
-	color:white;
+	color:rgb(255, 103, 1);
 	font-size: 2em;
 	border: px solid;
 	flex-grow: 8;
@@ -191,7 +192,7 @@ input{
 }
 
 .shop{
-	color:rgb(248, 247, 247);
+	color:rgb(255, 196, 0);
 	height: 2em;
 	font-size: 0.5em;
 	font-weight: lighter;
@@ -203,30 +204,32 @@ input{
         color:white;
         border: px solid;
         flex-grow: 8;
+    }} 
+
+@media only screen and (max-width: 600px){
+     .shop{
+     text-transform: lowercase;
+     text-align: left;
+    margin-top: 14px;
+    padding: 0px;
+    border: px solid;
+    color:rgb(248, 247, 247);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }}
+
+@media only screen and (max-width: 600px){
+    .opt{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    font-size: 5px;
+    width: 20px;
+    border: 0px solid;
     }}
-    @media only screen and (max-width: 600px){
-        .shop{
-            text-transform: lowercase;
-            text-align: left;
-            margin-top: 14px;
-            padding: 0px;
-            border: px solid;
-            color:rgb(248, 247, 247);
-            font-size: 10px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-        }}
-        @media only screen and (max-width: 600px){
-            .opt{
-                float: right;
-                margin: 0px;
-                padding: 0px;
-                font-size: 5px;
-                width: 20px;
-                border: 0px solid;
-            }}
 
 .flexsignup{
-	color:white;
+    color:orange;
 	font-size: 2em;
 	border: px solid;
 	flex-grow: auto;
@@ -235,12 +238,13 @@ input{
 
 .register{
 	flex-grow: 9;
-	color:rgb(248, 247, 247);
+	color:orange;
 	height: 2em;
 	font-size: 0.5em;
 	font-weight: lighter;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 @media only screen and (max-width: 600px){
     .flexsignup{
         margin-top: 17px;
@@ -251,6 +255,7 @@ input{
         text-align: center;
         flex-grow: 8;
     }}
+
 @media only screen and (max-width: 600px){
     .register{
     
@@ -263,14 +268,14 @@ input{
     }}
 
 .flexcall{
+    color:orange;
 	font-size: 1em;
-	color:white;
 	border: px solid;
 	flex-grow: 5;
 	text-align: center;
 	padding: 5px;
 	font-family:'Courier New', Courier, monospace;
-	font-weight: lighter;
+	font-weight: bold;
 }
 
 @media only screen and (max-width: 600px){
@@ -286,7 +291,7 @@ input{
     }}
 
 .flexcart{
-	color:white;
+    color:orange;
 	font-size: 1em;
 	flex-grow: 1;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -320,11 +325,33 @@ font-weight: lighter;
     font-weight: lighter;
     }}
  
+   
     .banner{
-        width: 100%;
-        height: 300px;
-        padding: 30px;
-    }
+        background: url("https://images.pexels.com/photos/5926462/pexels-photo-5926462.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+        background-size: 100% 100%;
+        height: 400px;
+      }
+  
+     h2{
+         font-size: 2em;
+         color:white;
+         text-align: center;
+         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     } 
+
+  .btn1{
+      float: right;
+     padding: 0px 10px;
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 1.8em;
+     text-transform: uppercase;
+     background-color: orange;
+     color:white;
+     border: 0px solid;
+  }
+
+  button:hover{
+      background-color: orangered;}
     @media only screen and (max-width: 600px){
         .banner{
             height: 100px;
@@ -333,43 +360,47 @@ font-weight: lighter;
             margin: 0px;
         }
     }
-    
-    .grid-container{
-        display: grid;
-        border: 2px solid;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        padding: 10px;
-        height: auto;
-        width: 100%;
-        margin: 0px;
-    }
-    
-    .top{
-        font-size: 2rem;
-        border: 2px solid;
-        text-align: center;
-        height: 300px;
-        width: 300px;
-        margin: 0px;
-        
-    }
-    @media only screen and (max-width: 600px){
+
     .grid-container{
         display: grid;
         border: px solid;
-        grid-template-columns: 65px 65px 65px 25px;
+        grid-template-columns: auto auto auto auto;
         grid-template-rows: auto auto auto auto;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        padding: 10px;
+        grid-column-gap: auto;
+        grid-row-gap: auto;
+        padding: 30px;
         height: auto;
-        width: auto;
-        margin: 0 8px;
+        width: 100%;
+        margin:  0px;
     }
+
+    @media only screen and (max-width: 600px){
+        .grid-container{
+            display: grid;
+            border: px solid;
+            grid-template-columns: 65px 65px 65px 25px;
+            grid-template-rows: auto auto auto auto;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            padding: 10px;
+            height: auto;
+            width: auto;
+            margin: 0 8px;
+        }}
+
+    .top{
+        font-size: 2rem;
+        border: 1px solid rgb(179, 166, 166);
+        text-align: center;
+        height: 320px;
+        width: 300px;
+        margin: 5px 0px;
+        padding: 20px;
+        background-color: rgb(247, 247, 247);
+
+        
     }
+   
     @media only screen and (max-width: 600px){
         .top{
             font-size: 2rem;
@@ -382,13 +413,14 @@ font-weight: lighter;
         }}
     
     .mid{
-        background-color: rgb(230, 255, 2);
-        border: px solid;
+        background-color: rgba(238, 224, 224, 0.247);
+        border: 1px solid rgb(179, 166, 166);
         text-align: center;
         font-size: 2rem;
-        height: 250px;
+        height: 320px;
         width: 300px;
         margin: 0px;
+        padding: 25px;
     }
     @media only screen and (max-width: 600px){
         .mid{
@@ -406,8 +438,6 @@ font-weight: lighter;
         grid-template-columns: auto auto;
         display: grid;
         border: 4px solid;
-        grid-column-gap: 20px;
-        grid-row-gap: 10px;
         padding: 10px;
         height: auto;
         width: 100%;
@@ -425,98 +455,122 @@ font-weight: lighter;
         width: 100%;
     }}
     
-    .btnleft{
-        background-color: rgb(31, 36, 29);
-        border: 2px solid;
-        text-align: center;
-        font-size: 2rem;	
-        height: 600px;
+
+
+  .price{
+        color:rgb(255, 153, 0);
+        float: center;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    @media only screen and (max-width: 600px){
-        .btnleft{
-            background-color: rgb(31, 36, 29);
-            border: 0px solid;
-            text-align: center;
-            font-size: 2rem;	
-            height: 205px;
-            color:red;
-        }}
-    
-    .grid-container3{
-        grid-template-rows: auto auto;
-        grid-template-columns: auto auto;
+    p{
+    font-size: 20px;
+    }
+    h3{
+        font-size: 0.75em;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .topa{
+        color:rgb(253, 253, 253);
+        text-decoration: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    .grid-footer{
+        padding: 60px;
+        background: black;
         display: grid;
-        border: 2px solid;
-        grid-column-gap: 10px;
-        grid-row-gap: 10px;
-        padding: 0px;
+        border: px solid rgb(0, 0, 0);
         height: auto;
         width: auto;
-        margin: 0;
-    }
-    @media only screen and (max-width: 600px){
-        .grid-container3{
-            grid-template-rows: auto auto;
-            grid-template-columns: auto auto;
-            display: grid;
-            border: 0px solid;
-            grid-column-gap: 5px;
-            grid-row-gap: 5px;
-            padding: 0px;
-            height: auto;
-            width: auto;
-        }}
-    
-    .btm1{
-        height: 300px;
-        border: 2px solid;
-        background-color: rgb(67, 255, 5);
-    }
-    .btm2{
-        height: 300px;
-        border: 2px solid;
-        background-color: rgb(101, 5, 255);
-    
+        grid-template-columns: auto auto auto auto auto;
     }
     
-    .btm3{
-        height: 280px;
-        border: 2px solid;
-        background-color: rgb(255, 105, 5);
+    @media (max-width: 800px){
+        .grid-footer{
+            padding: 20px;
+            display: grid;   
+            grid-template-columns: 90px 80px  80px  80px 80px ;
+        }
     }
-    .btm4{
-        height: 280px;
-        border: 2px solid;
-        background-color: rgb(255, 5, 5);
+    
+    h6{
+        color:orange;
+        float:left;
+        border: px solid;
+        font-size: 25px;
+        text-transform: capitalize;
+        margin-left: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    @media only screen and (max-width: 600px){
-        .btm1,.btm2,.btm3,.btm4{
-        height: 100px;
-        }}
-
-     .banner{
-      background: url("https://images.pexels.com/photos/5926462/pexels-photo-5926462.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
-      background-size: 100% 100%;
-      height: 400px;
-    }
-
-   h2{
-       font-size: 2em;
-       color:white;
-       text-align: center;
+    
+    li{
+       cursor: pointer;
+       line-height: 45px;
+       font-weight: 400;
+    
+       text-transform: capitalize;
        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 
-   } 
-.btn1{
-    float: right;
-   padding: 0px 10px;
-   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   font-size: 1.8em;
-   text-transform: uppercase;
-   background-color: orange;
-   color:white;
-   border: 0px solid;
-}
-button:hover{
-    background-color: orangered;}
+    li:hover{
+        text-decoration: underline;
+        }
+        
+    .vero{
+        text-decoration: underline;
+        color:red;
+        text-decoration: none;
+    }
+    
+    a{   
+        clear:both;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+    }
+    
+   
+    h7{
+        color:orange;
+        border: px solid;
+        font-size: 25px;
+        text-transform: capitalize;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    @media (max-width: 800px){
+    h6{
+    font-size: 10px;
+    margin: 40px;
+    font-weight: 800;
+    clear: both;
+    }}
+    
+    @media (max-width: 800px){
+        h7{
+        font-size: 10px;
+        font-weight: 800;
+        }}
+    
+    @media (max-width: 800px){
+        li{
+            float:left;
+            padding: 0px;
+            margin: 0px;
+            font-size: 12px;
+            color:rgb(56, 56, 56);
+            line-height: 20px;
+            font-weight: 500;
+            list-style-type: none;
+            text-transform: capitalize;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+        }
+    }
+    @media (max-width: 800px){
+      input,#sites{
+            width: 150%;
+        }}
+    
+    
     
