@@ -134,10 +134,10 @@ h1{
 }
 
 input{
-	border: px solid red;
+	border: 0px solid red;
 	width: 80%;
 	background: white;
-	color: rgb(14, 13, 13);
+	color: rgb(0, 0, 0);
 	font-size: 20px;
 	float:left;
 	margin-top: 10px;
@@ -158,13 +158,12 @@ input{
 }
 
 .sbtn{
-	font-size: 11px;
+	font-size: 22px;
 	background: #f89500;
 	color: white;
 	border: 0px solid rgb(2, 2, 2);
 	cursor: pointer;
-    margin-top: 12px;	
-    
+    margin-top: 9px;	   
 }
 
 @media only screen and (max-width: 600px){
@@ -309,12 +308,12 @@ font-weight: lighter;
     font-weight: bolder;
     flex-grow: 8;
 }}
-
+@media only screen and (max-width: 600px){  
     #bid{
     color:rgb(255, 115, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: right;
     font-size: 8px;
     font-weight: lighter;
-    }
+    }}
  

@@ -76,7 +76,8 @@ table {
 	grid-row-gap: 20px;
 	padding: 30px;
 	height: auto;
-	width: auto;
+    width: auto;
+  
 }
 
 .top{
@@ -85,7 +86,7 @@ table {
 	border: 2px solid;
 	text-align: center;
 	height: 300px;
-	width: 280px;
+	width: 320px;
 }
 @media only screen and (max-width: 600px){
 .grid-container{
@@ -118,7 +119,7 @@ table {
 	text-align: center;
 	font-size: 2rem;
 	height: 300px;
-	width: 280px;
+	width: 320px;
 }
 @media only screen and (max-width: 600px){
 	.mid{
@@ -135,7 +136,7 @@ table {
 	grid-template-rows: auto auto;
 	grid-template-columns: auto auto;
 	display: grid;
-	border: 2px solid;
+	border: px solid;
 	grid-column-gap: 10px;
 	grid-row-gap: 10px;
 	padding: 30px;
