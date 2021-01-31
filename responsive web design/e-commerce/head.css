@@ -93,10 +93,13 @@ h1{
 
 .header-flex{
 	display: flex;
-	border: px solid;
+	border:px solid blue;
 	justify-content: left;
 	background: rgb(0, 0, 0);
-	cursor: pointer;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
 }
 
 .flex0{
@@ -317,3 +320,203 @@ font-weight: lighter;
     font-weight: lighter;
     }}
  
+    .banner{
+        width: 100%;
+        height: 300px;
+        padding: 30px;
+    }
+    @media only screen and (max-width: 600px){
+        .banner{
+            height: 100px;
+            padding: 10px;
+            width: 100%;
+            margin: 0px;
+        }
+    }
+    
+    .grid-container{
+        display: grid;
+        border: 2px solid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .top{
+        font-size: 2rem;
+        border: 2px solid;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        margin: 0px;
+        
+    }
+    @media only screen and (max-width: 600px){
+    .grid-container{
+        display: grid;
+        border: px solid;
+        grid-template-columns: 65px 65px 65px 25px;
+        grid-template-rows: auto auto auto auto;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        padding: 10px;
+        height: auto;
+        width: auto;
+        margin: 0 8px;
+    }
+    }
+    @media only screen and (max-width: 600px){
+        .top{
+            font-size: 2rem;
+            background-color: rgb(47, 0, 255);
+            border: px solid;
+            text-align: center;
+            height: 100px;
+            width: 90px;
+            color:rgb(255, 0, 0);
+        }}
+    
+    .mid{
+        background-color: rgb(230, 255, 2);
+        border: px solid;
+        text-align: center;
+        font-size: 2rem;
+        height: 250px;
+        width: 300px;
+        margin: 0px;
+    }
+    @media only screen and (max-width: 600px){
+        .mid{
+        background-color: rgb(230, 255, 2);
+        border: 2px solid;
+        text-align: center;
+        font-size: 2rem;
+        height: 100px;
+        width: 90px;
+        color:Red;
+    }}
+    
+    .grid-container2{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        display: grid;
+        border: 4px solid;
+        grid-column-gap: 20px;
+        grid-row-gap: 10px;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+    }
+    @media only screen and (max-width: 600px){
+    .grid-container2{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        display: grid;
+        border: px solid;
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        padding: 10px;
+        height: auto;
+        width: 100%;
+    }}
+    
+    .btnleft{
+        background-color: rgb(31, 36, 29);
+        border: 2px solid;
+        text-align: center;
+        font-size: 2rem;	
+        height: 600px;
+    }
+    @media only screen and (max-width: 600px){
+        .btnleft{
+            background-color: rgb(31, 36, 29);
+            border: 0px solid;
+            text-align: center;
+            font-size: 2rem;	
+            height: 205px;
+            color:red;
+        }}
+    
+    .grid-container3{
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto;
+        display: grid;
+        border: 2px solid;
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        padding: 0px;
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    @media only screen and (max-width: 600px){
+        .grid-container3{
+            grid-template-rows: auto auto;
+            grid-template-columns: auto auto;
+            display: grid;
+            border: 0px solid;
+            grid-column-gap: 5px;
+            grid-row-gap: 5px;
+            padding: 0px;
+            height: auto;
+            width: auto;
+        }}
+    
+    .btm1{
+        height: 300px;
+        border: 2px solid;
+        background-color: rgb(67, 255, 5);
+    }
+    .btm2{
+        height: 300px;
+        border: 2px solid;
+        background-color: rgb(101, 5, 255);
+    
+    }
+    
+    .btm3{
+        height: 280px;
+        border: 2px solid;
+        background-color: rgb(255, 105, 5);
+    }
+    .btm4{
+        height: 280px;
+        border: 2px solid;
+        background-color: rgb(255, 5, 5);
+    }
+    @media only screen and (max-width: 600px){
+        .btm1,.btm2,.btm3,.btm4{
+        height: 100px;
+        }}
+
+     .banner{
+      background: url("https://images.pexels.com/photos/5926462/pexels-photo-5926462.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260");
+      background-size: 100% 100%;
+      height: 400px;
+    }
+
+   h2{
+       font-size: 2em;
+       color:white;
+       text-align: center;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+   } 
+.btn1{
+    float: right;
+   padding: 0px 10px;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 1.8em;
+   text-transform: uppercase;
+   background-color: orange;
+   color:white;
+   border: 0px solid;
+}
+button:hover{
+    background-color: orangered;}
+    
