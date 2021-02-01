@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    border: px solid red;
+    background: #42455a;
+   }
+    
+ /*this one is important*/.menu ul{
+    display: inline-flex;
+    margin: 20px;
+}
+/*this one is important*/.menu ul li{
+   display: inline-flex;
+   margin: 0px 20px; 
+   list-style:none;
+   color: #ffffff;
+   cursor: pointer;
+   text-transform: capitalize;
+   border: px solid red;
+   font-size: 1.5em;
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+    border: px solid red;
+}
+/*this one is important*/
+.signup-btn{
+    font-size: 1.5em;
+   border: px solid red;
+   top: 10px;
+   right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color:rgb(245, 245, 245);
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,#19d7f8);
+   background-origin: border-box;
+   background-clip: content-box,border-box;
+
+}
+  /*this one is important*/
+  .signup-btn span{
+     display: block;
+     padding: 8px 22px;
+     border: px solid red;
+     font-size: 20px;
+   }
+
+ .banner{
+     width: 80%;
+     height: 70%;
+     top: 25%;
+     left: 130px;
+     position: absolute;
+     color:rgb(247, 0, 0);
+     border: px solid red;
+ }
+ .app-text{
+     width: 50%;
+     float:left;
+     color:orange;
+ }
+ .app-text h1{
+     border: px solid red;
+     font-size:43px;
+     position:relative;
+     margin-left: 150px;
+     margin-top: 10px;
+ }
+ .app-text p{
+     font-size: 15px;
+     line-height: 25px;
+     color:green;
+     border: px solid red;
+     margin-left: 150px;
+     margin-top: 10px;
+    
+ }
+ /*this is imp*/
+ .app-picture{
+     width: 45%;
+     float:right;
+     border: px solid red;
+ }
+ /*this is imp*/
+ .app-picture img{
+   width: 100%;
+   margin-top: 10px;
+   
+}
+/*this is imp*/
+.play-btn{
+   margin-top: 10px;
+   margin-left: 150px;
+   display: inline-flex;
+   
+}
+/*this is imp*/
+.play-btn-inner{
+   width: 50px;
+   height: 50px;
+   border: 2px solid transparent;
+   border-radius: 50%;
+   background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,#19d7f8);
+  background-origin: border-box;
+  background-clip: content-box,border-box;
+  text-align: center;
+}
+/*this is imp*/
+.play-btn-inner .fa{ 
+   padding: 18px 0;
+   font-size: 16px;
+   cursor: pointer;
+   text-align: center;
+   color:rgb(28, 255, 7);
+}
+   /*this is imp*/
+b{
+   text-transform: uppercase;
+   font-size: 20px;
+}
+/*this is imp*/
+   small{
+       margin: auto 20px;
+       cursor: pointer;
+       font-size: 12px;
+       color: #119988;
+       letter-spacing: 3px;
+   }
+   /*this is imp*/
+   .quick-links{
+       left: 0;
+       bottom: 0;
+       position: absolute;
+       background:linear-gradient(to right,#d202ee,#00d6fc);	
+   }
+   /*this is imp*/
+   .quick-links ul{
+       display: inline-flex;
+       margin: 0px auto;
+       text-align: center;
+   }
+   /*this is imp*/
+   .quick-links ul li{
+       list-style: none;
+       margin: 0 140px;
+       cursor: pointer;
+   }
+   /*this is imp*/
+   .quick-links ul li .fa{
+       font-size: 30px;
+       color:rgb(8, 255, 90);
+   }
+   /*this is imp*/
+   .quick-links ul li p{
+margin-top: 10px;
+font-size: 10px;
+color:rgb(255, 255, 255);
+   }
+.social-icons{
+   right: 82px;
+   bottom: 45px;
+   position: absolute;
+   
+}
+.social-icons ul li{
+   list-style: none;
+   margin-top: 35px;
+   text-align: center;
+   margin-bottom: 35px;
+}
+
+.social-icons ul li a{
+   color: #999;
+   border-radius: 50%;
+   display: block;
+   padding: 5px;
+   border: 1px solid #999;
+   list-style: none;
+   text-align: center;
+   background: #fefeff;
+}
