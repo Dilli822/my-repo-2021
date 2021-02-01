@@ -1,2 +1,3 @@
- // alert("hellow");
-//document.write("heloow");
+var msg ="hlello world"
+console.log(msg);
+
