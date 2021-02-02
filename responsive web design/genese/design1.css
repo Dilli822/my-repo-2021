@@ -313,7 +313,7 @@ b{
    /*this is imp*/
    .quick-links ul li{
        list-style: none;
-       margin: 0 140px;
+       margin: 0 150px;
        cursor: pointer;
    }
 
@@ -355,14 +355,14 @@ b{
    
 .social-icons{
    right: 82px;
-   bottom: 5px;
+   bottom: 45px;
    position: absolute;
   
 }
 @media only screen and (max-width: 600px){       
 .social-icons{
     border:px solid red;
-    bottom: 40px;
+    bottom: 45px;
     position: absolute;
     right: 2px;
   
