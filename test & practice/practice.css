@@ -3,187 +3,87 @@
 	 padding: 0;
 	 font-family: sans-serif;
  }
- .container{
+ .bg-img{
+	 background: url("https://cdn.pixabay.com/photo/2019/12/16/02/32/knight-4698269_960_720.jpg");
+	 background-size: 100% 100%;
+	 height: 800px;
 	 width: 100%;
-	 height: 100%;
-	 border: px solid red;
-	 background: #42455a;
-	}
-	 
-  /*this one is important*/.menu ul{
-	 display: inline-flex;
-	 margin: 20px;
  }
- /*this one is important*/.menu ul li{
-	display: inline-flex;
-	margin: 0px 20px; 
-	list-style:none;
-	color: #ffffff;
-	cursor: pointer;
-	text-transform: capitalize;
-	border: px solid red;
-	font-size: 1.5em;
- }
- .logo img{
-	 width: 30px;
-	 height: 30px;
-	 border: px solid red;
- }
- /*this one is important*/
- .signup-btn{
-	 font-size: 1.5em;
-	border: px solid red;
-	top: 10px;
-	right: 80px;
-	 position: absolute;
-	 text-decoration: none;
-	 color:rgb(245, 245, 245);
-	 border: 2px solid transparent;
-	 border-radius: 20px;
-	 background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,#19d7f8);
-	background-origin: border-box;
-	background-clip: content-box,border-box;
+.menu{
+	color:red;
+	border: px solid rgb(255, 250, 250);
+}
+.menu nav{
+font-size: 35px;
 
- }
-   /*this one is important*/
-   .signup-btn span{
-	  display: block;
-	  padding: 8px 22px;
-	  border: px solid red;
-	  font-size: 20px;
-	}
+}
+.logo{
+	height: 20px;
+	color:greenyellow;
+}
+.menu nav ul{
+	display: flex;
+	color: greenyellow;
+	list-style: none;
+	float: right;
+	bordeR: px solid white;
+}
 
-  .banner{
-	  width: 80%;
-	  height: 70%;
-	  top: 25%;
-	  left: 130px;
-	  position: absolute;
-	  color:rgb(247, 0, 0);
-	  border: px solid red;
-  }
-  .app-text{
-	  width: 50%;
-	  float:left;
-	  color:orange;
-  }
-  .app-text h1{
-	  border: px solid red;
-	  font-size:43px;
-	  position:relative;
-	  margin-left: 150px;
-	  margin-top: 10px;
-  }
-  .app-text p{
-	  font-size: 15px;
-	  line-height: 25px;
-	  color:green;
-	  border: px solid red;
-	  margin-left: 150px;
-	  margin-top: 10px;
-	 
-  }
-  /*this is imp*/
-  .app-picture{
-	  width: 45%;
-	  float:right;
-	  border: px solid red;
-  }
-  /*this is imp*/
-  .app-picture img{
-	width: 100%;
-	margin-top: 10px;
-	
+.menu nav ul li{
+	padding: 10px;
+	bordeR: px solid white;
+	margin: 10px;
+
 }
-/*this is imp*/
-.play-btn{
-	margin-top: 10px;
-	margin-left: 150px;
-	display: inline-flex;
-	
-}
-/*this is imp*/
-.play-btn-inner{
-	width: 50px;
-	height: 50px;
-	border: 2px solid transparent;
-	border-radius: 50%;
-	background-image:linear-gradient(#42455a,#42455a),radial-gradient(circle at top left, #fd00da,#19d7f8);
-   background-origin: border-box;
-   background-clip: content-box,border-box;
-   text-align: center;
-}
-/*this is imp*/
-.play-btn-inner .fa{ 
-	padding: 18px 0;
-	font-size: 16px;
-	cursor: pointer;
-	text-align: center;
-	color:rgb(28, 255, 7);
-}
-	/*this is imp*/
-b{
-	text-transform: uppercase;
+ .media-icons{
+	 display: flex;
+	 border: px solid;
+	flex-direction: column;
+	float: right;
+	position: fixed;
+	text-align: right;
 	font-size: 20px;
-}
-/*this is imp*/
-	small{
-		margin: auto 20px;
-		cursor: pointer;
-		font-size: 12px;
-		color: #119988;
-		letter-spacing: 3px;
-	}
-	/*this is imp*/
-	.quick-links{
-		left: 0;
-		bottom: 0;
-		position: absolute;
-		background:linear-gradient(to right,#d202ee,#00d6fc);	
-	}
-	/*this is imp*/
-	.quick-links ul{
-		display: inline-flex;
-		margin: 0px auto;
-		text-align: center;
-	}
-	/*this is imp*/
-	.quick-links ul li{
-		list-style: none;
-		margin: 0 140px;
-		cursor: pointer;
-	}
-	/*this is imp*/
-	.quick-links ul li .fa{
-		font-size: 30px;
-		color:rgb(8, 255, 90);
-	}
-	/*this is imp*/
-	.quick-links ul li p{
-margin-top: 10px;
-font-size: 10px;
-color:rgb(255, 255, 255);
-	}
-.social-icons{
-	right: 82px;
-	bottom: 45px;
-	position: absolute;
+	right: 1rem;
+	top: 10em;	
+	
+ }
+
+ a{
+	color:greenyellow;
+ }
+ .h1{
+	 color:rgb(71, 255, 47);
+	 text-align: center;
+	 padding-top: 50px;
+ }
+ .p1{
+	color:rgb(255, 255, 255);	
+	text-align: center; 
+ }
+
+.searchbox{
+	float: center;
+	width: 50%;
+	height: 30px;
+	color:greenyellow;
+	background: greenyellow;
 	
 }
-.social-icons ul li{
-	list-style: none;
-	margin-top: 35px;
-	text-align: center;
-	margin-bottom: 35px;
+.fa {
+	color:rgb(30, 255, 0);
+	background: rgb(128, 0, 0);
 }
 
-.social-icons ul li a{
-	color: #999;
-	border-radius: 50%;
-	display: block;
-	padding: 5px;
-	border: 1px solid #999;
-	list-style: none;
-	text-align: center;
-	background: #fefeff;
-}
+
+ h2{
+text-align: center;
+color:green;
+font-size: 45px;
+margin-top: 50px;
+padding-bottom: 15px;
+ }
+ p{
+	 font-size:1em;
+	 border: px solid;
+text-align: center;
+ }

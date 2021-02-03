@@ -24,7 +24,7 @@
    display: inline-flex;
    margin: 0px 20px; 
    list-style:none;
-   color: #bebaba;
+   color: #babebc;
    cursor: pointer;
    text-transform: capitalize;
    border: px solid red;
@@ -336,7 +336,7 @@ b{
    @media only screen and (max-width: 600px){ 
     .quick-links ul li .fa{
         font-size: 20px;
-        color:rgb(8, 255, 90);
+        color:rgb(129, 134, 131);
     }}
 
 

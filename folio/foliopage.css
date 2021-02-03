@@ -3,6 +3,7 @@
   margin: 0;
    padding: 0;
 }
+
 li{
     display: inline;
   }
@@ -211,7 +212,7 @@ color: rgb(255, 0, 51);
   cursor: pointer;
   text-align: center;
   margin-top: 310px;
-  background-color: rgba(248, 0, 0, 0.699);
+  background-color: rgba(248, 112, 0, 0.699);
   width: 94%;
   font-weight: 900;
   color:rgb(248, 249, 255);
@@ -223,10 +224,13 @@ color: rgb(255, 0, 51);
   margin: 0px;
   cursor: pointer;
   text-align: center;
-  background-color: rgba(248, 0, 0, 0.699);
+  background-color: rgba(248, 112, 0, 0.397);
   color:white;
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p255:hover{
+  background-color: rgba(255, 0, 51, 0.842);
 }
 .submit111{
 margin: 0px;
@@ -235,7 +239,7 @@ width: 150px;
 border: 2px solid;
 cursor: pointer;
 color:white;
-background-color: green;
+background-color: rgb(255, 136, 0);
 border: 2px solid orange;
 }
 
@@ -276,7 +280,7 @@ width: 100px;
 border: 2px solid;
 cursor: pointer;
 color:white;
-background-color: green;
+background-color: rgb(255, 187, 0);
 border: 1px solid orange;
 visibility:visible;
 }}
@@ -1052,7 +1056,8 @@ button{
   height:auto;
   width: auto;
   cursor: pointer;
-  background-color:rgba(31, 224, 31, 0.425);
+  background-color:rgb(252, 134, 0);
+  color:white;
 }
 
 h11{
@@ -1122,11 +1127,12 @@ font-family:sans-serif;
 height: 40px;
 width: 125px;
 cursor: pointer;
-background-color: rgb(38, 240, 129);
+background-color: rgb(255, 145, 0);
 font-family:sans-serif;
+color:white;
 }
 .submit:hover{
-  background-color: rgb(199, 14, 255);
+  background-color: rgb(255, 14, 14);
 }
 
 /*foot section*/
@@ -1141,6 +1147,7 @@ font-family:sans-serif;
   flex: 50%;
   border-bottom: 1px solid white;
   margin: 0px 20px 0px 20px;
+
 }
 .items13{
   font-size: 10px;
