@@ -8,9 +8,10 @@
 	 background-size: 100% 100%;
 	 height: 800px;
 	 width: 100%;
+	 border-bottom: 1px solid white;
  }
 .menu{
-	color:rgb(0, 204, 255);
+	color:rgb(30, 255, 0);
 	border: px solid rgb(255, 250, 250);
 }
 .menu nav{
@@ -23,7 +24,7 @@ font-size: 35px;
 }
 .menu nav ul{
 	display: flex;
-	color: rgb(47, 206, 255);
+	color: rgb(255, 255, 255);
 	list-style: none;
 	float: right;
 	bordeR: px solid white;
@@ -52,6 +53,7 @@ font-size: 35px;
 	color:rgb(47, 189, 255);
  }
  .h1{
+	background: rgba(163, 160, 160, 0.295);
 	 position: relative;
 	 font-weight: 550;
 	 font-size:3em;
@@ -61,10 +63,13 @@ font-size: 35px;
 	 border: px solid rgb(115, 255, 0);
  }
  .p1{
-	color:rgb(255, 255, 255);	
+	color:#fff;	
 	text-align: center; 
 	border: px solid red;
 	font-size: 1.6rem;
+	background: rgba(163, 160, 160, 0.055);
+
+
  }
  .highlight1{
 	 color:rgb(0, 255, 0);
@@ -72,7 +77,8 @@ font-size: 35px;
  }
  .highlight2{
 	 color:rgb(5, 5, 5);
-	 font-weight: 700;
+	 background: rgba(163, 156, 156, 0.397);
+	 font-family:Verdana, Geneva, Tahoma, sans-serif;
  }
 
 .searchbar{
@@ -87,29 +93,38 @@ font-size: 35px;
 }
 
 .fa {
-	color:rgb(0, 255, 34);
+	color:rgb(253, 253, 253);
 }
 .searchbtn{
-    background: rgb(255, 250, 250);
+    background: rgb(207, 198, 198);
 	font-size: 1.3em;
 	border: px solid red;
 	padding: 5px;
 	border-radius: 50%;
 	position: relative;
 	cursor: pointer;
+	color:green;
 }
 
  h2{
 text-align: center;
 color:green;
 font-size: 45px;
-margin-top: 50px;
+border-bottom: 1px solid white;
 padding-bottom: 15px;
-border: 2px solid red;
+border: px solid red;
+text-transform: uppercase;
+background: rgb(54, 51, 51);
+color:white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
  }
  p{
-	 font-size:1.5em;
-	 border: px solid;
+	 color:white;
+	background: rgb(54, 51, 51);
+	font-size:1.5em;
    text-align: center;
-   border: 2px solid red;
+   border: px solid red;
+   text-transform: capitalize;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
  }
