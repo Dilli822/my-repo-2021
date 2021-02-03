@@ -1,0 +1,237 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: sans-serif;
+}
+
+.bg-img{
+   background: url("https://cdn.pixabay.com/photo/2019/12/16/02/32/knight-4698269_960_720.jpg");
+   background-size: 100% 100%;
+   height: 800px;
+   width: 100%;
+   border-bottom: 1px solid white;
+}
+@media only screen and (max-width: 600px){ 
+.bg-img{
+  background: url("https://cdn.pixabay.com/photo/2019/12/16/02/32/knight-4698269_960_720.jpg");
+  background-size: 100% 100%;
+  height: 500px;
+  width: 100%;
+  border-bottom: 1px solid white;
+}}
+
+a{
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  }
+
+
+menu{
+  border: px solid white;
+  background: rgba(163, 160, 160, 0.253);
+}
+
+
+menu nav{
+  margin: 5px;
+  text-align: right;
+}
+
+menu nav ul li{
+  display: inline-flex;
+  font-size: 35px;
+  margin-left: 60px;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px){
+  menu nav ul li{
+     display: inline-flex;
+     font-size: 25px;
+     margin-left: 5px;
+     padding: 0px;
+  }}
+
+.logo{
+  height: 20px;
+  color:greenyellow;
+}
+@media only screen and (max-width: 600px){
+  .logo{
+     height: 10px;
+     color:greenyellow;
+  }}
+
+.media-icons{
+   display: flex;
+   border: px solid;
+  flex-direction: column;
+  float: right;
+  position: fixed;
+  text-align: right;
+  font-size: 20px;
+  right: 1rem;
+  top: 10em;		
+}
+@media only screen and (max-width: 600px){
+  .media-icons{
+     display: flex;
+     border: px solid;
+     flex-direction: column;
+     float: right;
+     position: fixed;
+     text-align: right;
+     font-size: 15px;
+     right: 1rem;
+     top: 10em;		
+  }}
+
+
+.h1{
+  background: rgba(163, 160, 160, 0.116);
+   position: relative;
+   font-weight: 550;
+   font-size:3em;
+   color:rgb(250, 250, 250);
+   text-align: center;
+   padding-top: 80px;
+   border: px solid rgb(115, 255, 0);
+}
+
+@media only screen and (max-width: 600px){
+  .h1{
+     background: rgba(163, 160, 160, 0.116);
+      position: relative;
+      font-weight: 550;
+      font-size: 1.4em;
+      color:rgb(250, 250, 250);
+      text-align: center;
+      padding-top: 20px;
+      border: px solid rgb(115, 255, 0);
+   }}
+
+.p1{
+  color:#fff;	
+  text-align: center; 
+  border: px solid red;
+  font-size: 1.6rem;
+  background: rgba(163, 160, 160, 0.055);
+}
+
+@media only screen and (max-width: 600px){
+  .p1{
+     color:#fff;	
+     text-align: center; 
+     border: px solid red;
+     font-size: 0.9rem;
+     background: rgba(163, 160, 160, 0.055);
+   }}
+
+.highlight1{
+   color:rgb(0, 255, 0);
+   font-weight: 800px;
+}
+
+
+.highlight2{
+   color:rgb(5, 5, 5);
+   background: rgba(163, 156, 156, 0.397);
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.searchbar{
+  float: center;
+  width: 38%;
+  height: 40px;
+  color:rgb(0, 0, 0);
+  margin-top: 440px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px){
+  .searchbar{
+  margin-top: 300px;
+  float: center;
+  width: 38%;
+  height: 25px;
+  color:rgb(0, 0, 0);
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}}
+
+.fa {
+  color:rgb(253, 253, 253);
+}
+
+.searchbtn{
+   background: rgb(207, 198, 198);
+  font-size: 1.3em;
+  border: px solid red;
+  padding: 5px;
+  border-radius: 50%;
+  position: relative;
+  cursor: pointer;
+  color:green;
+}
+
+@media only screen and (max-width: 600px){
+  .searchbtn{
+     background: rgb(207, 198, 198);
+     font-size: 1em;
+     border: px solid red;
+     padding: 5px;
+     border-radius: 50%;
+     position: relative;
+     cursor: pointer;
+     color:green;
+  }}
+
+  
+h2{
+text-align: center;
+color:green;
+font-size: 45px;
+border-bottom: 1px solid white;
+padding-bottom: 15px;
+border: px solid red;
+text-transform: uppercase;
+background: rgb(54, 51, 51);
+color:white;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+  h2{
+     text-align: center;
+     color:green;
+     font-size: 25px;
+     border-bottom: 1px solid white;
+     padding-bottom: 10px;
+     border: px solid red;
+     text-transform: uppercase;
+     background: rgb(54, 51, 51);
+     color:white;
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }}
+
+p{
+   color:white;
+  background: rgb(54, 51, 51);
+  font-size:1.5em;
+  text-align: center;
+  border: px solid red;
+  text-transform: capitalize;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media only screen and (max-width: 600px){
+  p{
+     color:white;
+     background: rgb(54, 51, 51);
+     font-size: 1em;
+    text-align: center;
+    border: px solid red;
+    text-transform: capitalize;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }}
