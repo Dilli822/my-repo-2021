@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid green;
+  
+}
+h1{
+    border: 2px solid rgb(0, 47, 255);   
+}
+.card{
+    border: 2px solid rgb(255, 17, 0);   
+}
+
+.wrapper{
+    border: 2px solid rgb(255, 187, 0);   
+}
+
+.job-title{
+    border: 2px solid rgb(0, 204, 255);   
+}
+.about{
+    border: 2px solid rgb(2, 2, 2);   
+}
+

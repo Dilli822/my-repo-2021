@@ -1,0 +1,64 @@
+style css
+
+.menu{
+	border: px solid orange;
+
+}
+.menu ul{
+	border: px solid green;
+	background-color: black;
+}
+.menu ul li{
+	display: inline-block;
+	border: px solid blue;
+	margin-left: 80px;
+	padding-left: 20px;
+	
+
+}
+.menu ul li a{
+	border: px solid red;
+	text-decoration: none;
+	font-size: 1.56em;
+	color:rgb(5, 255, 172);
+	text-align: end;
+	
+}
+.menu ul li a:hover{
+	text-decoration:underline;
+	color:white;
+
+}
+
+.sidebar{
+	position: fixed;
+	color: black;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: black;
+	height: 700px;
+
+
+}
+.sidebar a{
+	text-decoration: none;
+	color:rgb(5, 255, 172);
+	font-size: 2.1em;
+
+}
+.sidebar a:hover{
+	text-decoration: underline;
+	color:white;
+
+}
+.searchbar{
+	margin-left: 150px;
+}
+button{
+	margin-left: 0px;	
+}
+.fig{
+	max-width: 80%;
+	margin-left: 120px;
+}

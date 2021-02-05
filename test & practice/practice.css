@@ -1,62 +1,51 @@
-.menu{
-	border: px solid orange;
-
-}
-.menu ul{
-	border: px solid green;
-	background-color: black;
-}
-.menu ul li{
-	display: inline-block;
-	border: px solid blue;
-	margin-left: 80px;
-	padding-left: 20px;
-	
-
-}
-.menu ul li a{
-	border: px solid red;
-	text-decoration: none;
-	font-size: 1.56em;
-	color:rgb(5, 255, 172);
-	text-align: end;
-	
-}
-.menu ul li a:hover{
-	text-decoration:underline;
-	color:white;
-
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.sidebar{
-	position: fixed;
-	color: black;
-	top: 0;
-	left: 0;
+.sideimage{
+	background: url("https://sockrepublic.in/wp-content/uploads/2020/10/Add-a-subheading-2.png");
+	width: 70%;
+	height: 500px;
+	float: right;
 	z-index: 1;
-	background-color: black;
-	height: 700px;
-
+	right: 0;
 
 }
-.sidebar a{
-	text-decoration: none;
-	color:rgb(5, 255, 172);
-	font-size: 2.1em;
 
+	
+.socks{
+	margin-top: 30px;
+	margin-left: 30px;
 }
-.sidebar a:hover{
-	text-decoration: underline;
-	color:white;
-
+label{
+	margin-top: 20px;
+	display: block;
+	color: red;
+	text-transform: capitalize;
 }
-.searchbar{
-	margin-left: 150px;
+.form{
+background-color: black;
+height: 500px;
+}
+.form input{
+	margin-left: 30px;
+	height: 50px;
+	border-radius: 25px;
+	text-align: center;
+	width: 20%
 }
 button{
-	margin-left: 0px;	
+	margin-left: 100px;	
+	border-radius: 10px;
+	height: 30px;
+width: 5%;
 }
-.fig{
-	max-width: 80%;
-	margin-left: 120px;
+aside{
+	margin-left: 20px;
+   float: center;
+	font-size: 0.8em;
+	color: white;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
 }

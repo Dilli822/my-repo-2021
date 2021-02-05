@@ -1,0 +1,81 @@
+.sideimage{
+	background: url("https://sockrepublic.in/wp-content/uploads/2020/10/Add-a-subheading-2.png");
+	width: 80%;
+	height: 500px;
+	float: right;
+	z-index: 1;
+	right: 0;
+}
+
+@media only screen and (max-width: 500px){
+	.sideimage{
+		width:40%;
+		height: 500px;
+		float: right;
+		z-index: 1;
+		right: 0;
+	
+	}	
+}
+	
+.socks{
+	margin-top: 30px;
+	margin-left: 50px;
+}
+label{
+	margin-top: 20px;
+	display: block;
+	color: red;
+	text-transform: capitalize;
+}
+h1{
+	color:white;
+	margin-left: 30px;
+}
+.form{
+background-color: black;
+height: 500px;
+}
+.form input{
+	margin-left: 30px;
+	height: 30px;
+	border-radius: 25px;
+}
+button{
+	margin-left: 100px;	
+	border-radius: 10px;
+	height: 30px;
+}
+aside{
+	font-size: 0.78em;
+	color: white;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+@media only screen and (max-width: 500px){
+	.form input{
+height: 30px;
+margin: 0;
+	}
+	button{
+		height: 25px;
+		font-size: 15px;
+		margin-left: 70px;
+	}
+	aside{
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 1025px){
+	.form input{
+		height: 30px;
+		margin-left: 30px;
+			}
+			button{
+				height: 25px;
+				font-size: 15px;
+				margin-left: 100px;
+			}
+			aside{
+			text-align: left;
+			}
+}
