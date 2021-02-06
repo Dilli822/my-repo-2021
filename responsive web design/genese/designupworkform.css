@@ -33,14 +33,14 @@ body{
 	display: grid;
 	border: 1px solid rgb(230, 228, 228);
 	background-color: rgb(247, 247, 247);
-	margin: 10px 25px;
-	padding: 50px;
+	margin: 0px;
+	padding: 20px;
 	border-radius: 5px;
 }
 }
 
-/*for ipad or larger screens*/
-@media only screen and (max-width: 1024px){
+/*for tablet screens*/
+@media only screen and (max-width: 1024px) and (min-width: 501px){
 	.wrapper{
 		display: grid;
 		border: 1px solid rgb(230, 228, 228);
@@ -49,6 +49,17 @@ body{
 		padding: 50px;
 		border-radius: 5px;
 	}
+	}
+/*for desktop screens*/
+@media only screen and (min-width: 1024px){	
+.wrapper{
+	display: grid;
+	border: 1px solid rgb(236, 235, 235);
+	background-color: rgb(247, 247, 247);
+    margin: 60px 400px;
+	padding: 50px;
+	border-radius: 5px;
+}
 	}
 
 h1{
