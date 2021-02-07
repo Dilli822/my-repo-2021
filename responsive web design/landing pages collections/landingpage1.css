@@ -1,4 +1,56 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+h2{
+    color:red;
+}
 body{
     background-color: rgb(125, 119, 209);
 }
@@ -208,3 +260,111 @@ input{
     text-align: center;   
 } 
 }
+
+@media only screen and (min-width: 1025px){
+    h2{
+        color:red;
+    }
+    body{
+        background-color: rgb(125, 119, 209);
+    }
+    
+    h1{
+        color:white;
+        font-weight: lighter;
+        font-family: Arial;
+        text-transform: capitalize;
+        text-align: center; 
+    }
+    hr{
+        border-bottom: 1px solid white;
+        width: 90%;
+    }
+    
+    h2{
+        color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: capitalize;
+        font-weight:lighter;
+        margin-left: 25px;
+      
+    }
+    .mainparagraph{
+        color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: lighter;
+        width: 400px;
+        font-size: 1.15rem;
+        padding-left: 30px;
+    }
+    
+    .mainfig{
+        max-width: 100%;
+    }
+    
+    .wrapper{
+        display: flex;
+        border: px solid;
+        flex-wrap: nowrap;
+    
+    }
+    .wrap1{
+        border: px solid white;
+        padding: 40px;  
+    }
+    
+    .wrap2{
+        border:px solid white;
+        padding: 20px; 
+        background: rgba(76, 89, 160, 0.89); 
+        margin-right: 60px;
+        height: 500px;
+        margin-top: 60px;
+    }
+    
+    
+    
+    h3{
+        color:white;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: capitalize;
+        font-weight:lighter;
+        text-align: center;
+      
+    }
+    
+    input{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color:black;
+        font-weight: bolder;
+        padding: 10px;
+        margin-top: 15px; 
+        width: 75%;  
+        margin-left: 20px;
+    }
+    .getbox{
+        border: 1px solid orange;
+        background-color: orange;
+        color: white;
+        font-size: 0.85rem;
+        text-transform: capitalize;
+        padding: 5px;
+        margin-top: 15px; 
+        width: 82%;
+        margin-left: 20px;
+    }
+    
+    .social-icons {
+        color:white;
+        background-color: rgba(15, 15, 170, 0.781);
+        padding: 5px;
+        text-align: center;
+        width: 79%;
+        margin-left: 20px;
+       
+    }
+    .social-icons a {
+        color:white;
+        padding: 5px;
+        text-align: center;   
+    }}
