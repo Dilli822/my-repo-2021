@@ -1,119 +1,13 @@
-
-h1{
-	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
-background: rgb(179,220,237); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 */
-color:rgb(253, 253, 253);
-font-size: 1.5em;
-text-align: center;
-font-family: cursive;
-font-size: 2rem;
-padding: 15px;
-}
-
-.wrapper{
-	display: flex;
-	border: px solid rgb(0, 0, 0);
-	justify-content: baseline;
-	flex-wrap: wrap;
-	padding: 0px;
-
-}
-img{
-	max-width: 100%;
-
-}
-
-.wrap1{
-	border: 2px solid rgb(0, 255, 13);
-	background-color:rgb(233, 233, 248);
-	margin: 0px 300px;
-}
-
 .bg-image{
-box-shadow: .5rem .5rem 3rem rgb(0,0,0,0.2);
-position: absolute;
--webkit-clip-path:polygon(0 0, 100% 0, 100% 26%, 0% 100%) ;
-clip-path: polygon(0 0, 100% 0, 100% 26%, 0% 100%);
-
+	object-fit: cover;
+	clip-path: polygon(0 0, 100% 0, 100% 30%, 0% 100%);
 }
-
 .mem-photo{
-	position: relative;
-   clip-path: circle(50%);
-   margin-top: 170px;
-   object-fit: cover;
-   border-radius: 50%;
-   margin-left: 150px;
-   border: 1rem solid #a0a2aa;
-}
-
-h2{
-	font-size: 1.5rem;
-	text-align: center;
-	color:red;
-}
-
-aside{
-	font-style:italic;
-	text-align: center;
-	font-size: 1rem;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-p{
-	font-size: 1.25rem;
-	letter-spacing: 1px;
-	line-height: 25px;
-	width: 450px;
-	padding: 15px;
-	text-align: center;
-	font-family: Arial, Helvetica, sans-serif;
-}
-.social-icons{
-	padding: 15px;
-	justify-content: space-around;
-}
-
-
-
-
-
-
-
-
-
-.social-icons{
-	display: flex;
-	list-style:none;
-}
-.social-icons li a{
-	color:black;
-	font-size: 1.85rem;
-}
-.social-icons i{
-    font-size: 3rem;
-    transition: color .5s;
-}
-.fa-facebook-square{
-    color: #3b5999;
-}
-.fa-twitter-square{
-    color: #55acee;
-}
-
-.fa-instagram{
-    color: #e6683c;
-}
-.fa-google-plus-square{
-    color: #dd4b39;
-}
-
-.fa-facebook-square:hover,
-.fa-twitter-square:hover,
-.fa-instagram:hover,
-.fa-google-plus-square:hover{
-color: #45e19f;
+	width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+    z-index: 999;
+    border: 1rem solid #ebeef8;
 }
