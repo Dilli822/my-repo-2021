@@ -7,156 +7,6 @@ body{
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
-.sideimage img{
-    max-width: 100%;
-
-}
-.flex-box{
-    display: flex;
-    border: 1px solid black;
-    border: 2px solid white;
-    padding-top: 40px;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
- 
-}
-.sidebar{
-    position:static;
-    width: 200px;
-    background-color: rgb(255, 0, 128);
-    border: 2px solid white;
-    height: 660px;
-    font-size: 1.85rem;
-    padding: 5px;
-}
-.sidebar li{
-    list-style: none;  
-    border: 1px solid white;
-    text-align: center;
-    padding: 18px;
-
-
-}
-.sideimage{
- max-width: 100%;
- border: px solid black;
- margin-left: 5px;
- padding: 10px;
-}
-
-.sidebar ul li a{
-    text-decoration: none;
-    text-transform: capitalize;
-    color:rgb(253, 253, 253);
-    font-size: 1.2rem;
-    border: px solid white;
-    font-weight: lighter;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
- 
-}
-
-img{
-    max-width: 100%;
-}
-.flex-box2{
-    display: flex;
-    border: 1px solid black;
-    padding: 20px; 
-
-}
-
-.flexitems1{
-    font-size: 14px;
-    border: 1px solid rgb(0, 0, 0);
-    height: 350px;
-    background: url("https://lh3.googleusercontent.com/n79oKLlnI5_hD4HsYrT7QmIOnQ8cJO9iuDxMDeLTCESCygBvZbHMJCskti5yfGMVR8UEy-25fZ44PCq2fJBKQon1RyuLx7y116TII6FWqp0npi6fxdOKKRYu_MfmrBUT7r_JR4ZBmMLa98njA9L_ZstHVWt4an-RRd9E9-jdowX4rYc1LGMzBLBglzI436UjRFaHtP8MSukozEC3ggselmOOp6JCc9eDWYXnWvd2znmLOwDyGuUANT4ZGFmzPlJlEOcuyd2aYQOs0kFxtlab1J_6D80yQ9ZJVHZAfiRiCUC1KZp46wJbmWolWSg_ZK-64km_QUufr3AhKEVU2A-wt2bQRGu_kcrI8Hse2x-_h8fJ2YP45x0zzw1v9skLNoB8n0odKfs4BXtyPtJmHIto1yggQKHfVwNip8hVYPzRdbfL5EkA8vyF3WrjxNLTYR77QVIj8Nl1mvSPxmnAGx5Vl0i9TLgn5UvL_xI5WOLpeBkAquBGz6lk8-8ivAz8X3L1sDvqSe8izxW0hYMz8lvi0YKnfYl7Y-GmYnGbxbvQWtNG1_5sWTQQEBOr3T5xdbrKZRKmJOj7rw9hUfj6TDpxoa0HXjLL2ts0YWBIiMCPgtqOjDI3Igf77rOsRDtlJ5FxioJkFl-wi_1kocrTQSuoE0JiWUM_eD-e1TcV3PbNe_z3sU1RDnehi29iEYhjdw=w812-h480-no?authuser=0");
-    width: 550px;
-    background-size: 100% 100%;  
-    margin: 8px;
-}
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
-
-}
-
-
-.flexitems1{
-    font-size: 14px;
-    border: 1px solid rgb(0, 0, 0);
-    height: 450px;
-    background: url("https://lh3.googleusercontent.com/U-0a5Qjkiroxj39WIa4CIwgDDhmSap7wKqAR7uJgZRLUjp-ztt5EgiLQIqj2JuAfzBPEsXfMkwZ3vJhh8CgQlEzrozWpjs0NqnZNbzaHoXRJKgqLPqsuuAj0Y5V-K8n69R-qxhrlMxhmizaz2ppIrXnY-TG9hMMrP-VvWSvkIhU2_69kjMElhrsD7fPlV0xAbR0vpDPi5LzZaCJ-Wb_sgIDflLgSqltsYVGWKkYPyGQOA29OCRSVVROS22CXHNDXdP8PUXcBwchi9x79-VQ1vrbSAOC0kV6crbhTbczobTmMRY7PAvV7r_7fkIcMqk1FVHyF4ii5YL7OkAt8L07qBISM66loRD0qmA8v39AlezYLH2nkSf6ufuViyIwygl2JRFffyDxWzx9bGuLmhf1EzpDeM-8AvUWQRR80cMQmhxsOoON2I1IL2CH3AUfT17EltNQbhJhUEsyeduz_J9WgAVlEmGq4pWgEZFjmgkT_f7kN8wfdYkwzcR7DCkXzraHm9vqhkGpdRbzMV0Ovk0Gr8S6L7UqpUAET1AERhyIvsLtqPSxlh2C1j_5Jobh9imbXL43pUjfzpEzydU4h3eWgn7zecGiIKqfoj0M0g1Tbgi6SsZq3PKi9XPHkKyjb5V-sLjwIuDWQyS--fyksT8P6i6Ykh9b_cKhVTK_MTaxngsh_CnhQXQN-Wxquz_fjhA=w550-h325-no?authuser=0");
-    width: 550px;
-    background-size: 100% 100%;  
-    margin: 8px;
-}
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
-
-}
-
-.flexitems2{
-    font-size: 14px;
-    border: 1px solid rgb(0, 0, 0);
-    height: 450px;
-    background: url("https://lh3.googleusercontent.com/n79oKLlnI5_hD4HsYrT7QmIOnQ8cJO9iuDxMDeLTCESCygBvZbHMJCskti5yfGMVR8UEy-25fZ44PCq2fJBKQon1RyuLx7y116TII6FWqp0npi6fxdOKKRYu_MfmrBUT7r_JR4ZBmMLa98njA9L_ZstHVWt4an-RRd9E9-jdowX4rYc1LGMzBLBglzI436UjRFaHtP8MSukozEC3ggselmOOp6JCc9eDWYXnWvd2znmLOwDyGuUANT4ZGFmzPlJlEOcuyd2aYQOs0kFxtlab1J_6D80yQ9ZJVHZAfiRiCUC1KZp46wJbmWolWSg_ZK-64km_QUufr3AhKEVU2A-wt2bQRGu_kcrI8Hse2x-_h8fJ2YP45x0zzw1v9skLNoB8n0odKfs4BXtyPtJmHIto1yggQKHfVwNip8hVYPzRdbfL5EkA8vyF3WrjxNLTYR77QVIj8Nl1mvSPxmnAGx5Vl0i9TLgn5UvL_xI5WOLpeBkAquBGz6lk8-8ivAz8X3L1sDvqSe8izxW0hYMz8lvi0YKnfYl7Y-GmYnGbxbvQWtNG1_5sWTQQEBOr3T5xdbrKZRKmJOj7rw9hUfj6TDpxoa0HXjLL2ts0YWBIiMCPgtqOjDI3Igf77rOsRDtlJ5FxioJkFl-wi_1kocrTQSuoE0JiWUM_eD-e1TcV3PbNe_z3sU1RDnehi29iEYhjdw=w812-h480-no?authuser=0");
-    width: 550px;
-    background-size: 100% 100%;  
-    margin: 8px;
-}
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
-
-}
-
-.flexitems3{
-    font-size: 14px;
-    border: 1px solid rgb(0, 0, 0);
-    height: 450px;
-    background: url("https://lh3.googleusercontent.com/n79oKLlnI5_hD4HsYrT7QmIOnQ8cJO9iuDxMDeLTCESCygBvZbHMJCskti5yfGMVR8UEy-25fZ44PCq2fJBKQon1RyuLx7y116TII6FWqp0npi6fxdOKKRYu_MfmrBUT7r_JR4ZBmMLa98njA9L_ZstHVWt4an-RRd9E9-jdowX4rYc1LGMzBLBglzI436UjRFaHtP8MSukozEC3ggselmOOp6JCc9eDWYXnWvd2znmLOwDyGuUANT4ZGFmzPlJlEOcuyd2aYQOs0kFxtlab1J_6D80yQ9ZJVHZAfiRiCUC1KZp46wJbmWolWSg_ZK-64km_QUufr3AhKEVU2A-wt2bQRGu_kcrI8Hse2x-_h8fJ2YP45x0zzw1v9skLNoB8n0odKfs4BXtyPtJmHIto1yggQKHfVwNip8hVYPzRdbfL5EkA8vyF3WrjxNLTYR77QVIj8Nl1mvSPxmnAGx5Vl0i9TLgn5UvL_xI5WOLpeBkAquBGz6lk8-8ivAz8X3L1sDvqSe8izxW0hYMz8lvi0YKnfYl7Y-GmYnGbxbvQWtNG1_5sWTQQEBOr3T5xdbrKZRKmJOj7rw9hUfj6TDpxoa0HXjLL2ts0YWBIiMCPgtqOjDI3Igf77rOsRDtlJ5FxioJkFl-wi_1kocrTQSuoE0JiWUM_eD-e1TcV3PbNe_z3sU1RDnehi29iEYhjdw=w812-h480-no?authuser=0");
-    width: 550px;
-    background-size: 100% 100%;  
-    margin: 8px;
-}
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
-
-}
-.flexitems4{
-    font-size: 14px;
-    border: 1px solid rgb(0, 0, 0);
-    height: 450px;
-    background: url("https://lh3.googleusercontent.com/n79oKLlnI5_hD4HsYrT7QmIOnQ8cJO9iuDxMDeLTCESCygBvZbHMJCskti5yfGMVR8UEy-25fZ44PCq2fJBKQon1RyuLx7y116TII6FWqp0npi6fxdOKKRYu_MfmrBUT7r_JR4ZBmMLa98njA9L_ZstHVWt4an-RRd9E9-jdowX4rYc1LGMzBLBglzI436UjRFaHtP8MSukozEC3ggselmOOp6JCc9eDWYXnWvd2znmLOwDyGuUANT4ZGFmzPlJlEOcuyd2aYQOs0kFxtlab1J_6D80yQ9ZJVHZAfiRiCUC1KZp46wJbmWolWSg_ZK-64km_QUufr3AhKEVU2A-wt2bQRGu_kcrI8Hse2x-_h8fJ2YP45x0zzw1v9skLNoB8n0odKfs4BXtyPtJmHIto1yggQKHfVwNip8hVYPzRdbfL5EkA8vyF3WrjxNLTYR77QVIj8Nl1mvSPxmnAGx5Vl0i9TLgn5UvL_xI5WOLpeBkAquBGz6lk8-8ivAz8X3L1sDvqSe8izxW0hYMz8lvi0YKnfYl7Y-GmYnGbxbvQWtNG1_5sWTQQEBOr3T5xdbrKZRKmJOj7rw9hUfj6TDpxoa0HXjLL2ts0YWBIiMCPgtqOjDI3Igf77rOsRDtlJ5FxioJkFl-wi_1kocrTQSuoE0JiWUM_eD-e1TcV3PbNe_z3sU1RDnehi29iEYhjdw=w812-h480-no?authuser=0");
-    width: 550px;
-    background-size: 100% 100%;  
-    margin: 8px;
-}
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
-
-}
-
-
-footer{
-    border: 1px solid black;
-    text-align: center;
-    font-size: 2rem;
-    background:rgb(255, 0, 119) ;
-
-}
-footer a{
-    text-decoration: none;
-}
-
 .header-flex{
     position: fixed;
     width: 100%;	
@@ -166,7 +16,7 @@ footer a{
 .flexsearchbar{
 	background: rgb(255, 0, 106);
 	color:rgb(0, 0, 0);
-	font-size: 2em;
+	font-size: 1.3em;
 	border: px solid;
   
   
@@ -227,7 +77,7 @@ footer a{
 
 .call{
     color:rgb(255, 255, 255);
-	font-size: 0.5em;
+	font-size: 1em;
 	border:px solid white;
     font-family:'Courier New', Courier, monospace;
 	font-weight: bold;
@@ -266,10 +116,362 @@ footer a{
  .fa-cart-plus{
      color:rgb(255, 255, 255);
  }
- 
- .explore a{
-     text-decoration: none;
-     font-size: 2.5rem;
-     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.sideimage img{
+    max-width: 100%;
 
- }
+}
+.flex-box{
+    display: flex;
+    border: 1px solid black;
+    border: 2px solid white;
+    padding-top: 40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+ 
+}
+.sidebar{
+    position:static;
+    width: 200px;
+    background-color: rgb(255, 0, 128);
+    border: 2px solid white;
+    height: 700px;
+    font-size: 1.85rem;
+    padding: 5px;
+}
+.sidebar li{
+    list-style: none;  
+    border: 1px solid white;
+    text-align: center;
+    padding: 18px;
+}
+
+
+.sideimage{
+ max-width: 100%;
+ border: px solid black;
+ margin-left: 5px;
+ padding: 10px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:rgb(253, 253, 253);
+    font-size: 1.2rem;
+    border: px solid white;
+    font-weight: lighter;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
+}
+
+img{
+    max-width: 100%;
+}
+
+.explore a{
+    text-decoration: none;
+    font-size: 2.5rem;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+.flex-box2{
+    display: flex;
+    border: 1px solid black;
+    padding: 30px; 
+    flex-wrap: nowrap;
+
+}
+
+.flexitems1{
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    background: url("https://5.imimg.com/data5/EG/FW/KF/SELLER-20900427/sony-alpha-7r-iii-500x500.jpg");
+    width: 500px;
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions1{
+    border: 2px solid rgb(0, 0, 0);
+    color:rgb(255, 0, 119);
+    margin-top: 465px;
+    text-align:center;
+}
+
+
+.flexitems2{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    background: url("http://www.ngt.com.np/wp-content/uploads/2017/08/Sony-Bluetooth-Headphone-NGT-Mobiles-Nepal.jpg");
+    width: 550px;
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions2{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+
+.flexitems3{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    background: url("https://www.suunto.com/globalassets/productimages/suunto-7/graphite-copper/perspective/ss050382000-suunto-7-graphite-copper-perspective-music-controls-02.png?height=550&format=jpg&bgcolor=f6f6f6");
+    width: 550px;
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions3{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+
+.flexitems4{
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    background: url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/ipad-pro-12-select-wifi-spacegray-202003_FMT_WHH?wid=1945&hei=2000&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1583553704156");
+    width: 550px;
+    background-size: 100% 100%;  
+   margin-top: 8px;
+}
+.descriptions4{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems5{
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    width: 550px;
+    background: url("https://s7d1.scene7.com/is/image/MoosejawMB/10193061x1066924_zm?$product700$");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions5{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems6{
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    width: 550px;
+    background: url("https://sc01.alicdn.com/kf/HTB1CbWlQXXXXXX4XFXXq6xXFXXXX/230050070/HTB1CbWlQXXXXXX4XFXXq6xXFXXXX.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions6{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems7{
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    background: url("https://i.ebayimg.com/images/g/37gAAOSwIOxeumtc/s-l1600.jpg");
+    background-size: 100% 100%;
+    width: 550px;  
+    margin: 8px;
+}
+.descriptions7{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+
+.flexitems8{
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+    background: url("https://i.ebayimg.com/images/g/HRoAAOSw6S5dJZa1/s-l1600.jpg");
+    width: 550px;
+    background-size: 100% 100%;  
+    margin-top: 8px;
+}
+
+.descriptions8{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+
+.flexitems9{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width: 550px;
+    background: url("https://4.imimg.com/data4/NQ/XN/ANDROID-13394356/product-500x500.jpeg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions9{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems10{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width: 550px;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/71t3HdL3tBL._UX569_.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions10{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems11{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width: 550px;
+    background: url("https://ae01.alicdn.com/kf/HTB1oG8abzfguuRjSszcq6zb7FXab/BRAND-DESIGN-Classic-Polarized-Sunglasses-Men-Women-Driving-Square-Frame-Sun-Glasses-Male-Goggle-UV400-Gafas.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions11{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems12{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width:550px;
+    background: url("https://cdn.pixabay.com/photo/2016/12/14/11/34/socks-1906060_960_720.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions12{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+
+.flexitems13{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width:550px;
+    background: url("https://wonstonarmspubshop.weebly.com/uploads/1/3/1/3/131301578/s293353940988394287_p287_i1_w540.jpeg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions13{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+.flexitems14{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width:550px;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/71qyzy9QnML._SL1500_.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions14{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+}
+
+.flexitems15{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width:550px;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/818QhmsDlhL._SX679_.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions15{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+}
+.flexitems16{
+    font-size: 14px;
+    border: 1px solid rgb(0, 0, 0);
+    height:500px;
+    width:550px;
+    background: url("https://images-na.ssl-images-amazon.com/images/I/819ZKuIBZWL._SX569_PIbundle-12,TopRight,0,0_AA569SH20_.jpg");
+    background-size: 100% 100%;  
+    margin: 8px;
+}
+.descriptions16{
+    border: 2px solid black;
+    color:red;
+    margin-top: 465px;
+    text-align: center;
+
+}
+footer{
+    border: 1px solid black;
+    font-size: 2rem;
+    background:rgb(255, 0, 119) ;
+    text-align: center;
+
+}
+footer a{
+    text-decoration: none;
+  
+
+}
+
+.shopnow{
+	color:rgb(245, 245, 245);
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 1.45rem;
+	background-color: rgb(245, 97, 121);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pricetag{
+	color:rgb(22, 22, 22);
+	font-size: 1.25rem;
+}
+.shopnow:hover{
+	color:white;
+}
+.pricetag:hover{
+	color:rgb(255, 14, 126);
+	transform: scale(1.1);
+}
+
+
+ 
