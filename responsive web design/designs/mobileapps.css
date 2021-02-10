@@ -1,0 +1,19 @@
+.mobile-apps{
+    border: 2px solid;
+    width: 10%;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    border-radius: 10px;
+}
+i{
+    font-size: 2.5rem;
+    border: px solid;
+    width: 30%;
+}
+span{
+    text-align: end;
+    font-size: 1.3rem; 
+    text-transform: capitalize;
+
+}

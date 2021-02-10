@@ -3,10 +3,17 @@
     margin: 0px;
     box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 .wrapper{
     display: flex;
-    border: 1px solid;
+    border: px solid;
 
 }
 
@@ -15,51 +22,155 @@ img{
     max-width:fit-content;
     float:right;
 }
+.navheader{
+    background-color: pink;
+}
 
+
+
+.wrap1{
+    background:url("https://cdn.pixabay.com/photo/2017/01/18/17/14/girl-1990347_960_720.jpg");
+    background-color: rgb(255, 137, 156);
+    height: 650px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+.para{
+    color:white;
+    font-size: 2.25rem;
+    text-transform: capitalize;
+    padding-top: 220px;
+    padding-left:  550px;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+}
 
 .wrap2{
-    background-color: rgb(253, 167, 181);
+    background-color: rgb(224, 93, 115);
+    border: px solid white;
 }
 form{
     margin: 0px 20px;
     padding: 10px 20px;
     text-transform: capitalize;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    border: px solid white;
+  
 }
 
  label{
     display: block;
-    font-size: 2rem;
+    font-size: 1.4rem;
 }
 
  input{
-    border: 2px solid #f0f0f0;
+    border: 1px solid #f0f0f0;
     border-radius: 4px;
     display: block;
     font-family: sans-serif;
-    font-size: 1.25rem;
+    font-size: 1rem;
     padding: 10px;
     width: 100%;
     border-radius: 5px;
+    background-color: rgb(255, 255, 255);
 }
+
 button{
     display: block;
     margin: 5px 5px;
     padding:  10px 15px;
-    font-size: 1.5rem;
-    border-radius: 5px solid white;
-}
-.explore{
-    font-size: 35px;
-    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    letter-spacing: 2px;
     background-color: white;
+    border: 1px solid white;
+       
+}
+
+button:hover{
+    background-color: rgba(218, 175, 175, 0.295);
+}
+
+.explore{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(255, 82, 82, 0.295);
+    border-radius: 10px;
+  
 }
 .explore a{
-    color:rgb(0, 0, 0);
     text-decoration: none;
-    border: 1px solid white;
-    background-color: white;
     text-transform: capitalize;
+    color:white;
+    font-family: 'Inconsolata', monospace;
+    font-weight: lighter;
+    font-size: 1em;
+   
+
 }
+.explore:hover{
+    background-color: rgba(15, 15, 15, 0.295);
+}
+.explore a:hover{
+    transition:  500ms;
+    color:white;
+
+}
+.tour{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgba(15, 15, 15, 0.295);
+    border-radius: 10px;
+  
+}
+.tour a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+   
+
+}
+.tour:hover{
+    background-color: rgba(184, 38, 38, 0.295);
+}
+.tour a:hover{
+    transition:  500ms;
+    color:white;
+
+}
+.mid{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.fa{
+    border: x solid white;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.para2{
+    color:white;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold; 
+    text-align: center;
+    line-height: 35px;
+    padding: 30px;
+
+}
+
+.para2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
 
 
