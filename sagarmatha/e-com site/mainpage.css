@@ -14,7 +14,7 @@
 }
 #slider {
 	overflow:hidden;
-	height: auto;
+   
 
 }
 
@@ -30,6 +30,7 @@
 	width: 20%;
 	float: left;
 	height: 400px;
+
 
 
 
@@ -67,7 +68,7 @@
 .flex-container{
 	display: flex;
 	flex-wrap: wrap;
-	border: 1px solid;
+	border: px solid;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
@@ -77,107 +78,150 @@
 
 .top1{
 	font-size: 45px;
-	border: 1px solid;
+	border: 1px solid rgb(207, 196, 196);
 	width: 400px;
-	height: 450px;
+	height: 500px;
 	margin: 10px;
-	background: url("");
+	background: url("https://akolzol.com/wp-content/uploads/2019/11/H3c20afd2e5b640ff960985cc3b69a376I-600x600.jpg");
+	
     background-size: 100% 100%;  
 }
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
+.descriptions1{
+    border: px solid rgb(255, 52, 52);
+    color:rgb(255, 255, 255);
+	margin-top: 470px;
+
 
 }
 .top2{
 	font-size: 45px;
-	border: 1px solid;
+	border: 1px solid rgb(214, 206, 206);
 	width: 400px;
-	height: 450px;
+	height: 500px;
 	margin: 10px;
-	background: url("");
+	background: url("https://image.made-in-china.com/202f0j00cZlauHrCITGI/European-Design-3-in-1-Set-PU-Ladies-Tote-Handbag.jpg");
     background-size: 100% 100%;  
+	
 }
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
+.descriptions2{
+    border: px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+margin-top: 470px;
 
 }
 .top3{
 	font-size: 45px;
-	border: 1px solid;
+	border: 2px solid rgb(194, 163, 163);
 	width: 400px;
-	height: 450px;
-	background: url();
+	height: 500px;
+	background: url("https://ae01.alicdn.com/kf/HTB1t.6wKeuSBuNjSsziq6zq8pXaB/Fashion-winter-snow-boots-women-2018-fashion-Plus-velvet-warm-women-ankle-boots-lace-up-heels.jpg");
     background-size: 100% 100%;  
 }
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 50px;
-	height: 50px;
+.descriptions3{
+    border: px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+	margin-top: 470px;
 
 }
 
 
 .mid1{
-	font-size: 45px;
-	border: 1px solid;
+	border: 1px solid rgb(194, 174, 174);
 	width: 400px;
 	height: 500px;
-	background: blue;
 	margin: 10px;
-	background: url("");
+	background: url("https://www.dhresource.com/0x0/f2/albu/g11/M00/42/8D/rBNaFl8pPt6ANHXaAAIKoHSonkA091.jpg/teens-fashion-clothes-set-girls-summer-tee.jpg");
     background-size: 100% 100%;  
 }
-.midd1{
-	font-size: 45px;
-	border: 1px solid blue;
-	width: 380px;
-	height: 300px;
-	margin: 10px;
-	background: blue;
-	background: url("");
-    background-size: 100% 100%;  
-}
-.descriptions{
-    border: 2px solid black;
-    color:red;
-	width: 200px;
-	height: 100px;
+
+.descriptions4{
+	border: px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+	margin-top: 470px;
+	text-align: left;
+	
 
 }
 
 .mid2{
-	font-size: 45px;
-	border: 1px solid;
+
+	border: 1px solid rgb(207, 184, 184);
 	width: 400px;
-	height: 400px;
+	height: 500px;
 	margin: 10px;
-	background: url("");
+	background: url("https://cdn.shopify.com/s/files/1/0510/0034/4764/products/Top-and-Top-Spring-Autumn-Kids-Casual-Jacket-Girls-Ripped-Holes-Jeans-Coats-Little-Boys-Girls.jpg?v=1606181670");
     background-size: 100% 100%;  
 }
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 250px;
+.descriptions5{
+	border: px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+	margin-top: 470px;
+	text-align: center;
 
 }
 .mid3{
-	font-size: 45px;
-	border: 1px solid;
+	border: 1px solid rgb(201, 193, 193);
+	border: px solid;
 	width: 400px;
-	height: 400px;
-	background: url("");
+	height: 500px;
+	background: url("https://i.pinimg.com/originals/00/4e/f5/004ef5b2cfa3a2a6fafba2a53d1e5072.jpg");
     background-size: 100% 100%;  
 }
-.descriptions{
-    border: 2px solid black;
-    color:red;
-    margin-top: 350px;
-
+.descriptions6{
+    border: px solid rgb(250, 0, 0);
+    color:rgb(255, 255, 255);
+	margin-top: 470px;
+	text-align: center;
+}
+.mid4{
+	font-size: 45px;
+	border: px solid;
+	width: 400px;
+	height: 500px;
+	margin: 10px;
+	background: url("https://www.jomshoppy.com/wp-content/uploads/2020/07/Winter-and-Summer-style-Brand-women-skirt-elastic-faldas-ladies-midi-skirts-Sexy-Girl-mini-short.jpg");
+    background-size: 100% 100%;  
+}
+.descriptions7{
+    border: px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+	margin-top: 470px;
+	text-align: left;
+}
+.mid5{
+	font-size: 45px;
+	border: px solid;
+	width: 400px;
+	height: 500px;
+	margin: 10px;
+	background: url("https://i.ebayimg.com/images/g/I8MAAOSw8fddqjzG/s-l400.jpg");
+    background-size: 100% 100%;  
+}
+.descriptions8{
+    border: px solid rgb(255, 0, 0);
+    color:rgb(0, 0, 0);
+	margin-top: 470px;
+	text-align: left;
+ 
+}
+.shopnow{
+	color:rgb(245, 245, 245);
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 1.45rem;
+	background-color: rgb(245, 97, 121);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.pricetag{
+	color:rgb(22, 22, 22);
+	font-size: 1.25rem;
+}
+.shopnow:hover{
+	color:white;
+}
+.pricetag:hover{
+	color:rgb(255, 181, 181);
+	transform: scale(1.2);
 }
 .flex-container2{
 	display: flex;
