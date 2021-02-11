@@ -345,7 +345,7 @@ footer{
     border: 0px solid black;
     text-align:left;
     font-size: 2rem;
-    background:rgba(247, 241, 243, 0.842) ;
+    background:rgba(247, 241, 243, 0.842);
 }
 .btnfig{
 	float: right;
@@ -356,7 +356,7 @@ footer{
 	text-decoration: none;
 	font-size: 2.5rem;
 	color:white;
-	background-color: rgb(250, 99, 131);
+	background-color: rgba(252, 48, 92, 0.986);
 	text-align: center;	
 }
 

@@ -1,0 +1,65 @@
+.grid-box{
+    border: px solid;
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+  .head{
+    border: 0px solid rgb(7, 7, 7);
+     width: auto;
+    height:auto;
+  } 
+  
+  .poster{
+    border: px solid rgb(7, 7, 7);
+    display: inline;
+    width: auto;
+    height: auto;
+    float: center;
+  }
+  h2{
+    margin-left:80px;
+    font-family: 'Rubik', sans-serif;
+  }
+  p{
+  color:rgb(37, 17, 17); 
+  margin-left:80px;  
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  opacity: 0.5;
+  }
+  span{
+    color:crimson;
+  }
+  ul{
+    margin-left: 80px;
+  }
+  li{
+    color:crimson; 
+     font-size: 20px;
+     opacity: 0.8;
+  }
+  aside{
+    color:gray;
+    font-family: 'Inconsolata', monospace;
+    opacity: 0.8;
+  }
+  .sidehead{
+    border: 0px solid rgb(7, 7, 7);
+    margin-top: 140px;
+    text-align: left;
+  } 
+  
+  #join{
+    text-transform: uppercase;
+    border: 2px solid;
+    font-size: 15px;
+    width: 45%;
+    height: 45px;
+    color:white;
+    background-color: crimson;
+    cursor: pointer;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
