@@ -1,0 +1,40 @@
+@media only screen and (max-width: 500px){
+   h1{
+       font-size: 0.1rem;
+       padding: 0px;
+       margin: 18px 0px;
+       visibility: hidden;
+   }
+   .headline{
+       font-size: 0.2rem;
+       visibility: hidden;
+   }
+   
+    .nav{
+        margin: 0px 40px;
+        padding: 0px;
+    }
+    .nav ul li a{ 
+        margin: 0px 5px;
+        flex-wrap: wrap;
+        font-size: 1.5rem;
+    }
+    .social-media-icons{
+        margin: 0px;
+        font-size: 1.8rem;
+    }
+    .social-media-icons a{
+        margin: 0px 5px;
+    }
+    .social-media-icons a:hover{
+       color:rgb(228, 199, 220);
+    }
+    .submit{
+        margin-left: 150px;
+        font-size: 1rem;
+      
+    }
+    .submit:hover{
+        background-color:orangered;
+    }
+}
