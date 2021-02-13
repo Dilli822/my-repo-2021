@@ -7,11 +7,12 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
 }
+
 a{
     color:white;
 }
 
-
+/*top headings*/
 .headwrap1{
     display: flex;
     background-color: black;
@@ -59,6 +60,7 @@ h1{
     padding: 0px 30px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* social-media icons*/
 .social-media-icons{
     margin-left: 710px;
@@ -116,7 +118,7 @@ h3{
     background-color:rgb(255, 87, 87);
 }
 
-
+/*wrap box1 */
 .wrapbox1{
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +126,7 @@ h3{
     align-items: center;
     background-color: rgba(238, 234, 234, 0.315);
     border: px solid rgb(0, 0, 0);
-    padding: 0px;
+    padding: 25px;
 }
 
 
@@ -226,8 +228,7 @@ h5{
     padding: 5px;
 }
 
-
-
+/*information box */
 
 .info-box{
     display: flex;
