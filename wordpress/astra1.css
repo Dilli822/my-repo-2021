@@ -4,6 +4,9 @@ body{
     text-transform: capitalize;
 
 }
+img{
+    max-width: 100%;
+}
 .nav-header{
 display: inline-block;
 float: right;
@@ -192,4 +195,23 @@ h6{
     height: 300px;
     width: 500px;
     border: 2px solid ;
+}
+.foot-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.foot-box1{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.simple-logo{
+    display: flex;
+}
+.foot-notes{
+    display: flex;
+    flex-wrap: wrap;  
+}
+.copyrights{
+    font-size: 1.5rem;
+    padding: 10px;
 }
