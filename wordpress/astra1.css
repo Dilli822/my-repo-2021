@@ -173,6 +173,70 @@ h4{
     margin-bottom: 20px;
 }
 
+.featured-box2{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus2-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+.featured-box3{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant5-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+.featured-box4{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant1-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+.featured-box5{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus4-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+.featured-box6{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant4-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+.featured-box7{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/plant6-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
+
+.featured-box8{
+    width: 250px;
+    height: 300px;
+    border: px solid;
+    background: url("https://websitedemos.net/plant-store-02/wp-content/uploads/sites/410/2019/01/cactus6-free-img.jpg");
+    background-size: 100% 100%;
+    margin-bottom: 20px;
+}
+
 .flex-box{
     border: 2px solid rgb(34, 32, 32);
     display: flex;
@@ -241,21 +305,21 @@ h5{
 
 .grid-container{
     display:grid;
-    border: 2px solid;
+    border: px solid;
     width: auto;
     grid-template-columns: auto auto ;
     grid-template-rows: auto auto;
-    background-color:rgb(241, 233, 233);
-
+    background-color:rgb(255, 255, 255);
 }
 
-.items1{
-    background-color:rgb(241, 233, 233);
+.testimonials-box{
+    background-color:rgb(255, 255, 255);
     border: px solid rgb(17, 15, 15);
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
     width: auto;
+    height: 250px;
 }
 
 h6{
@@ -266,53 +330,56 @@ h6{
     font-size:30px;
 
 }
-.testimonials{
+
+.testimonials-line{
     font-size: 18px;
     font-weight: lighter;
     padding:10px;
 }
-.client{
-    font-size:14px;
+p.testimonials-paragraphs{
+    font-size: 1.1rem;
+    font-weight: 450;
+    text-align: center;
+    width: 300px;
+    padding: 0px;
+    border: px solid;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-.name{
-    font-size:1rem;
-    color:red;
+@media only screen and (max-width: 800px){
+    p.testimonials-paragraphs{
+        width: 200px;    
+    }
 }
-
-.title{
-    font-size:1rem;
-}
-.items2{
-    border: 2px solid rgb(26, 24, 24);
-    background-color:rgb(241, 233, 233);
+.top-right-client-pics{
+    border: px solid rgb(26, 24, 24);
+    background-color:rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     width: auto;
 }
-.items5{
+
+.low-left-pics{
     margin-top: -100px;
     border: px solid rgb(20, 20, 20);
     display: flex;
-    background-color:rgba(241, 240, 233, 0.849);
+    background-color:rgb(255, 255, 255);
     flex-wrap: wrap;
     width: auto;
 }
-.items6{
-  
-    border: 2px solid rgb(32, 30, 30);
-    background-color:rgb(241, 233, 233);
+
+
+.low-right-pics{
+    border: px solid rgb(255, 255, 255);
+    background-color:rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
     width: auto;
 }
-figure{
-    display: flex;
-    flex-wrap: wrap;
-    border-radius: 25px;
-    width: auto;
-    background-color:rgb(241, 233, 233);
+span{
+    color:Red;
+    font-style: italic;
 }
+
 .p-interested-brief{
     text-align: center;
 }
@@ -376,16 +443,20 @@ p.p-foot-brief{
     line-height: 25px;
     padding: 10px;
 }
+
 .simple-logo-image{
 margin-left: 50px;
 }
+
 .social-media-box{
     border: px solid;
 }
+
 .social-media nav ul li{
     display: inline-block;
   
 }
+
 .social-media nav ul li a{
     font-size: 2rem;
   margin-right: 18px;
@@ -428,13 +499,14 @@ aside.get-touch2{
     border: px solid;
     font-size: 1.2rem;
     line-height: 35px;
-
 }
+
 .nav-footer2 ul li{
     list-style-type: none;
     border: px solid;
     text-align: left;
 }
+
 .nav-footer2 ul li a{
     text-decoration: none;
     color:black;
@@ -443,15 +515,15 @@ aside.get-touch2{
     text-align: left;
 }
 
-
 .foot-notes{
     display: flex;
     flex-wrap: wrap; 
     margin-top: 25px;
 }
+
 .copyrights{
     font-size: 1.5rem;
-    padding: 10px;
+    padding: 5px;
     margin-left: 5px;
 }
 
