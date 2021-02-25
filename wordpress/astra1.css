@@ -363,7 +363,7 @@ aside.get-touch{
     text-align: left;
     opacity: 0.8;
     width: 350px;
-    border: 1px solid;
+    border: px solid;
     font-size: 1.75rem;
     margin-left: 25px;
 }
@@ -376,12 +376,24 @@ p.p-foot-brief{
     line-height: 25px;
     padding: 10px;
 }
-
-
 .simple-logo-image{
-    display: flex;
+margin-left: 50px;
+}
+.social-media-box{
+    border: px solid;
+}
+.social-media nav ul li{
+    display: inline-block;
+  
+}
+.social-media nav ul li a{
+    font-size: 2rem;
+  margin-right: 18px;
+  color: rgb(63, 59, 59);
 
 }
+
+
 .nav-footer ul li{
     list-style-type: none;
     border: px solid;
@@ -400,15 +412,20 @@ aside.links-head{
     font-size: 1.2rem;
     line-height: 35px;
 }
+.nav-footer ul li{
+    list-style-type: none;
+    border: px solid;
+    text-align: left;
+}
 .foot-box2{
     display: flex;
     flex-wrap: wrap;  
-    border: 1px solid;
+    border: px solid;
 }
 aside.get-touch2{
     font-weight: bold;
     text-align: center;
-    border: 1px solid;
+    border: px solid;
     font-size: 1.2rem;
     line-height: 35px;
 
@@ -416,12 +433,14 @@ aside.get-touch2{
 .nav-footer2 ul li{
     list-style-type: none;
     border: px solid;
+    text-align: left;
 }
 .nav-footer2 ul li a{
     text-decoration: none;
     color:black;
     opacity: 0.75;
     font-weight: lighter;
+    text-align: left;
 }
 
 
@@ -433,5 +452,16 @@ aside.get-touch2{
 .copyrights{
     font-size: 1.5rem;
     padding: 10px;
-    margin-left: 15px;
+    margin-left: 5px;
 }
+
+/*hover effects */
+button.go-to-shop:hover{
+    background-color: rgba(250, 74, 74, 0.884);
+   cursor: pointer;}
+   button.shop-now:hover{
+    background-color: rgba(250, 74, 74, 0.884);
+    cursor: pointer;
+
+}   
+   
