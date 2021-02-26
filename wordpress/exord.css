@@ -2,10 +2,40 @@
 
 body{
     text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
 }
 
+h1{
+    text-align: center;
+}
 
+#top-h1-brief{
+   color:red;
+  text-align: center;  
+  font-size: 1.25rem;
+}
 
+.nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav-header ul li{
+    display: inline-block;
+   
+}
+.nav-header ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;   
+}
+.social-media-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
 .banner{
     background: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: 100% 100%;
