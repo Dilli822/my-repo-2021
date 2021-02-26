@@ -1,4 +1,4 @@
-
+alert("Hi I'm Dilli! Hire me now dillihangrae@gmail.com");
 
 
 const form = document.getElementById('form');
