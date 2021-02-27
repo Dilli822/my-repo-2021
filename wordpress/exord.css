@@ -37,15 +37,90 @@ h1{
    
 }
 .banner{
-    background: url("https://images.pexels.com/photos/533923/pexels-photo-533923.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background: url("https://images.pexels.com/photos/914128/pexels-photo-914128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
+    padding: 140px;
 }
 h2{
+    font-size: 2rem;
     color:white;
     text-align: center;
 }
 .banner-paragraphs{
     color:white;
+    text-align: center;
 }
+
+img{
+    max-width: 100%;
+}
+
+
+.first-explore-wrap{
+display: flex;
+border: 1px solid;
+}
+
+.left-first-explore-wrap{
+    background: url("https://images.pexels.com/photos/2856273/pexels-photo-2856273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 500px;
+}
+.second-wrap{
+    display: flex;
+border: 1px solid;
+
+}
+.left-second-wrap{
+    background:black;
+    height: 400px;
+    width: 500px;
+    color:white;
+}
+.right-discover-second-wrap{
+    background: url("https://images.pexels.com/photos/2856273/pexels-photo-2856273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 500px;
+}
+
+.grid-container-featured-places{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid;
+}
+.grid-left-box{
+    border: 1px solid;   
+}
+.grid-entire-right-box{
+    font-size: 2rem;
+    display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto;   
+}
+.grid-inner-featured-box{
+    align-items: flex-start;
+    border: 1px solid;
+}
+
+.review-wrap{
+    display: flex;
+border: 1px solid;
+
+}
+.left-review-wrap{
+    background:black;
+    height: 400px;
+    width: 500px;
+    color:white;
+}
+.right-review-wrap{
+    background: url("https://images.pexels.com/photos/2856273/pexels-photo-2856273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: 100% 100%;
+    height: 400px;
+    width: 500px;
+}
+
